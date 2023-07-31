@@ -33,7 +33,7 @@ SSAFY 10기 06반 CS스터디
 | 23/08/04 | [고정 소수점 & 부동 소수점](./Contents/Network/TCP_IP%204계층%20%234.%20전송%20계층(transport)%20TCP와%20UDP.md)                                         | 문준형 |
 | 23/08/08 | [패리티 비트 & 해밍 코드](./Contents/Network/TCP_IP%204계층%20%235.%20인터넷%20계층(network)과%20ICMP.md)                                                   | 마성진 |
 | 23/08/09 | [ARM 프로세서](./Contents/Network/TCP의%20연결성립과정%203-웨이%20핸드쉐이크.md)                                                                                   | 전성재 |
-|     | [TCP의 연결해제과정 : 4-웨이 핸드쉐이크와 TIME_WAIT](./Contents/Network/TCP의%20연결해제과정%204-웨이%20핸드쉐이크와%20TIME_WAIT.md)                                                           | 이예은 |
+|     | [TCP의 연결해제과정 : 4-웨이 핸드쉐이크와 TIME_WAIT](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Data%20Structure/Array)                                                           | 이예은 |
 |     | [라우팅 #1. 개념과 라우터](./Contents/Network/라우팅%20%231.%20개념과%20라우터.md)                                                                                                 | 공진호 |
 |     | [라우팅 #2. 라우팅테이블](./Contents/Network/라우팅%20%232.%20라우팅테이블.md)                                                                                                     | 채예진 |
 |     | [IP주소, MAC주소, ARP, RARP](./Contents/Network/IP주소,%20MAC주소,%20ARP,%20RARP.md)                                                                                     | 조민수 |
