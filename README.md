@@ -38,8 +38,8 @@ SSAFY 8기 19반 cs스터디
 
 | 주차  | 제목                                                                                                                                                               | 발표자 |
 |-----|------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| 1주차 | [TCP/IP 4계층 #1. 개념, 캡슐화, 비캡슐화, PDU, OSI 7계층](./Contents/Network/TCP_IP%204계층%20%231.%20개념,%20캡슐화,%20비캡슐화,%20PDU,%20OSI%207계층.md)                                 | 김영서 |
-|     | [TCP/IP 4계층 #2. MTU와 MSS와 PMTUD](./Contents/Network/TCP_IP%204계층%20%232.%20MTU와%20MSS와%20PMTUD.md)                                                               | 강수지 |
+| 8/01 | [컴퓨터의 구성](./Contents/Network/TCP_IP%204계층%20%231.%20개념,%20캡슐화,%20비캡슐화,%20PDU,%20OSI%207계층.md)                                 | 권정훈 |
+| 8/01 | [중앙처리장치(CPU) 작동 원리](./Contents/Network/TCP_IP%204계층%20%232.%20MTU와%20MSS와%20PMTUD.md)                                                               | 하재률 |
 | 2주차 | [TCP/IP 4계층 #3. 애플리케이션 계층(application) HTTP, SSH, FTP, SMTP](./Contents/Network/TCP_IP%204계층%20%233.%20애플리케이션%20계층(application)%20HTTP,%20SSH,%20FTP,%20SMTP.md) | 양준모 |
 |     | [TCP/IP 4계층 #4. 전송 계층(transport) TCP와 UDP](./Contents/Network/TCP_IP%204계층%20%234.%20전송%20계층(transport)%20TCP와%20UDP.md)                                         | 이상원 |
 |     | [TCP/IP 4계층 #5. 인터넷 계층(network)과 ICMP](./Contents/Network/TCP_IP%204계층%20%235.%20인터넷%20계층(network)과%20ICMP.md)                                                   | 박윤환 |
