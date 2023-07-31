@@ -27,7 +27,7 @@ SSAFY 10기 06반 CS스터디
 
 | 날짜  | 제목                                                                                                                                                               | 발표자 |
 |-----|------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| 23/08/01 | [컴퓨터의 구성](./Contents/Network/TCP_IP%204계층%20%232.%20MTU와%20MSS와%20PMTUD.md)                               | 권정훈 |
+| 23/08/01 | [컴퓨터의 구성]([./Contents/Network/TCP_IP%204계층%20%232.%20MTU와%20MSS와%20PMTUD.md](https://github.com/jeonseongjae98/cs-study/blob/main/Computer%20Architecture/%EC%BB%B4%ED%93%A8%ED%84%B0%EC%9D%98%20%EA%B5%AC%EC%84%B1.md))                               | 권정훈 |
 | 23/08/02 | [중앙처리장치(CPU) 작동 원리](./Contents/Network/TCP_IP%204계층%20%232.%20MTU와%20MSS와%20PMTUD.md)                                                               | 하재률 |
 | 23/08/03 | [캐시 메모리](./Contents/Network/TCP_IP%204계층%20%233.%20애플리케이션%20계층(application)%20HTTP,%20SSH,%20FTP,%20SMTP.md) | 김도형 |
 | 23/08/04 | [고정 소수점 & 부동 소수점](./Contents/Network/TCP_IP%204계층%20%234.%20전송%20계층(transport)%20TCP와%20UDP.md)                                         | 문준형 |
