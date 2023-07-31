@@ -8,7 +8,7 @@ SSAFY 10기 06반 CS스터디
 |:----------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------:|
 |              [📖 Park YunHwan]             |           [📖 Ha JaeRyul]          |              [📖 Kwon JeongHun ]             |    [📖 Ma SeongJin]    |
 |    [<img src="https://avatars.githubusercontent.com/u/55802893?v=4" width="100">](https://github.com/nowgnas)    | [<img src="https://avatars.githubusercontent.com/u/73810834?v=4" width="100"/>](https://github.com/Ryeohwan) | [<img src="https://avatars.githubusercontent.com/u/42470768?v=4" width="100"/>](https://github.com/irang6v6) | [<img src="https://avatars.githubusercontent.com/u/96561194?v=4" width="100">](https://github.com/cxzlkjhgfdsa) |
-|                              [📖 Lee SangWon](https://github.com/nowgnas/CS-Study)                               |                              [📖 Ahn RyeoHwan](https://github.com/Ryeohwan/TRL)                              |               [📖 Nam Irang](https://irangeight.notion.site/a219bdf343844c3d9a3cb554d085af79)                |        [📖 Lee SeongHeon](https://jealous-capybara-3a7.notion.site/CS-3c720e325d3247999ca7eac65fb81010)         |
+|                              [📖 Jeon SeongJae]                               |                              [📖 Moon junhyeong]                             |               
 
 
 
