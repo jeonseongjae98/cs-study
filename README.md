@@ -10,17 +10,6 @@ SSAFY 10기 06반 cs스터디
 |    [<img src="https://avatars.githubusercontent.com/u/55802893?v=4" width="100">](https://github.com/nowgnas)    | [<img src="https://avatars.githubusercontent.com/u/73810834?v=4" width="100"/>](https://github.com/Ryeohwan) | [<img src="https://avatars.githubusercontent.com/u/42470768?v=4" width="100"/>](https://github.com/irang6v6) | [<img src="https://avatars.githubusercontent.com/u/96561194?v=4" width="100">](https://github.com/cxzlkjhgfdsa) |
 |                              [📖 Lee SangWon](https://github.com/nowgnas/CS-Study)                               |                              [📖 Ahn RyeoHwan](https://github.com/Ryeohwan/TRL)                              |               [📖 Nam Irang](https://irangeight.notion.site/a219bdf343844c3d9a3cb554d085af79)                |        [📖 Lee SeongHeon](https://jealous-capybara-3a7.notion.site/CS-3c720e325d3247999ca7eac65fb81010)         |
 
-### 싸탈의 전당
-
-| [<img src="https://avatars.githubusercontent.com/u/46861704?v=4" width="100"/>](https://github.com/YunYongWoon) | [<img src="https://avatars.githubusercontent.com/u/45252618?v=4" width="100">](https://github.com/yejin013) | [<img src="https://avatars.githubusercontent.com/u/43868550?v=4" width="100">](https://github.com/KangSuzy) | [<img src="https://avatars.githubusercontent.com/u/80434024?v=4" width="100">](https://github.com/koy4648) |
-|:---------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------:|
-|                                 [📖 Yun YongWoon](https://velog.io/@yuyun0124)                                  |               [📖 Chae YeJin](https://yj-ssafy.notion.site/a95bc74fa67045e794c699f1e0d810cc)                |                              [📖 Kang SooJi](https://github.com/KangSuzy/TIL)                               |      [📖 Kim YoungSeo](https://telling-starburst-b5b.notion.site/CS-b494bcb89082445cb48b230788f269c2)      |
-
-### 망령
-
-| [<img src="https://avatars.githubusercontent.com/u/102861657?v=4" width="100">](https://github.com/minsu121x) |
-|:-------------------------------------------------------------------------------------------------------------:|
-|            [📖 Jo MinSu](https://charm-ocelot-88c.notion.site/CS-9b9a452599234b419afbbd803dd40c34)            |
 
 
 
