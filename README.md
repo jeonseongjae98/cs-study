@@ -6,7 +6,7 @@ SSAFY 10기 06반 cs스터디
 
 | [<img src="https://avatars.githubusercontent.com/u/139290855?v=4" width="100">](https://github.com/ehgud619) | [<img src="https://avatars.githubusercontent.com/u/62232531?v=4" width="100">](https://github.com/wlsgh7608) | [<img src="https://avatars.githubusercontent.com/u/55372995?v=4" width="100">](https://github.com/devjunmo)  |   [<img src="https://avatars.githubusercontent.com/u/103018534?v=4" width="100">](https://github.com/Dodamon)   |
 |:----------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------:|
-|              [📖 Park YunHwan]             |           [📖 Ha JaeRyul](https://meadow-pram-047.notion.site/cs-8ea8d7f0d60c4a7890093edcb2e29a1d)           |              [📖 Yang JunMo](https://github.com/devjunmo/TIL/blob/main/CS_Study/csStudyWiki.md)              |    [📖 Lee YeEun](https://chlorinated-koi-491.notion.site/Computer-science-beffd78d679242a18e40e59cfc7c4205)    |
+|              [📖 Park YunHwan]             |           [📖 Ha JaeRyul]          |              [📖 Kwon JeongHun ]             |    [📖 Ma SeongJin]    |
 |    [<img src="https://avatars.githubusercontent.com/u/55802893?v=4" width="100">](https://github.com/nowgnas)    | [<img src="https://avatars.githubusercontent.com/u/73810834?v=4" width="100"/>](https://github.com/Ryeohwan) | [<img src="https://avatars.githubusercontent.com/u/42470768?v=4" width="100"/>](https://github.com/irang6v6) | [<img src="https://avatars.githubusercontent.com/u/96561194?v=4" width="100">](https://github.com/cxzlkjhgfdsa) |
 |                              [📖 Lee SangWon](https://github.com/nowgnas/CS-Study)                               |                              [📖 Ahn RyeoHwan](https://github.com/Ryeohwan/TRL)                              |               [📖 Nam Irang](https://irangeight.notion.site/a219bdf343844c3d9a3cb554d085af79)                |        [📖 Lee SeongHeon](https://jealous-capybara-3a7.notion.site/CS-3c720e325d3247999ca7eac65fb81010)         |
 
@@ -23,7 +23,7 @@ SSAFY 10기 06반 cs스터디
 - [Pull Request에 대한 설명](https://sadoruin-notes.notion.site/Pull-Request-3e8c9a7c98bc41819729e3b306ca9987)
 
 # Contents
-## 📌Network
+## 📌Computer Architecture
 
 | 주차  | 제목                                                                                                                                                               | 발표자 |
 |-----|------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
