@@ -33,13 +33,13 @@ SSAFY 10기 06반 CS스터디
 | 23/08/04 | [고정 소수점 & 부동 소수점](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Computer%20Architecture/%EA%B3%A0%EC%A0%95%20%EC%86%8C%EC%88%98%EC%A0%90%20%26%20%EB%B6%80%EB%8F%99%20%EC%86%8C%EC%88%98%EC%A0%90))                                         | 문준형 |
 | 23/08/08 | [패리티 비트 & 해밍 코드](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Computer%20Architecture/%ED%8C%A8%EB%A6%AC%ED%8B%B0%20%EB%B9%84%ED%8A%B8%20%26%20%ED%95%B4%EB%B0%8D%20%EC%BD%94%EB%93%9C)                                                   | 마성진 |
 | 23/08/09 | [ARM 프로세서](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Computer%20Architecture/ARM%20%ED%94%84%EB%A1%9C%EC%84%B8%EC%84%9C)                                                                                   | 전성재 |
-|     | [TCP의 연결해제과정 : 4-웨이 핸드쉐이크와 TIME_WAIT]([https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Data%20Structure/Array](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Data%20Structure/Array))                                                           | 이예은 |
-|     | [라우팅 #1. 개념과 라우터](./Contents/Network/라우팅%20%231.%20개념과%20라우터.md)                                                                                                 | 공진호 |
-|     | [라우팅 #2. 라우팅테이블](./Contents/Network/라우팅%20%232.%20라우팅테이블.md)                                                                                                     | 채예진 |
-|     | [IP주소, MAC주소, ARP, RARP](./Contents/Network/IP주소,%20MAC주소,%20ARP,%20RARP.md)                                                                                     | 조민수 |
-| 4주차 | [IP주소체계 #1. 이진수 이해하기](./Contents/Network/IP주소체계%20%231.%20이진수%20이해하기.md)                                                                                         |     |
-|     | [IP주소체계 #2. IPv4와 IPv6](./Contents/Network/IP주소체계%20%232.%20IPv4와%20IPv6.md)                                                                                     | 양준모 |
-|     | [IP주소체계 #3. 클래스풀(Classful IP Addressing)](./Contents/Network/IP주소체계%20%233.%20클래스풀(Classful%20IP%20Addressing).md)                                               | 박윤환 |
+|     | [Array]([https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Data%20Structure/Array](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Data%20Structure/Array))                                                           | 권정훈 |
+|     | [LinkedList](./Contents/Network/라우팅%20%231.%20개념과%20라우터.md)                                                                                                 | 하재률 |
+|     | [Array & ArrayList & LinkedList](./Contents/Network/라우팅%20%232.%20라우팅테이블.md)                                                                                                     | 김도형 |
+|     | [스택(Stack) & 큐(Queue)](./Contents/Network/IP주소,%20MAC주소,%20ARP,%20RARP.md)                                                                                     | 문준형 |
+| 4주차 | [힙(Heap)](./Contents/Network/IP주소체계%20%231.%20이진수%20이해하기.md)                                                                                         | 마성진 |
+|     | [트리(Tree)](./Contents/Network/IP주소체계%20%232.%20IPv4와%20IPv6.md)                                                                                     | 전성재 |
+|     | [이진탐색트리(Binary Search Tree))](./Contents/Network/IP주소체계%20%233.%20클래스풀(Classful%20IP%20Addressing).md)                                               |  |
 | 5주차 | [IP주소체계 #4. 클래스리스와 서브넷마스크, 서브네팅](./Contents/Network/IP주소체계%20%234.%20클래스리스와%20서브넷마스크,%20서브네팅.md)                                                                 |     |
 |     | [IP주소체계 #5. 공인IP(public IP)와 사설IP(private IP)와 NAT](./Contents/Network/IP주소체계%20%235.%20공인IP(public%20IP)와%20사설IP(private%20IP)와%20NAT.md)                       |     |
 |     | [DEEP DIVE : www<hi>.naver.com을 주소창에 입력했을 때 화면이 나타나기까지의 과정](./Contents/Network/DEEP%20DIVE%20-%20www.naver.com을%20주소창에%20입력했을%20때%20화면이%20나타나기까지의%20과정.md)       |     |
