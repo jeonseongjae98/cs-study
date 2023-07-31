@@ -2,7 +2,7 @@
 SSAFY 10기 06반 CS스터디
 
 ## Member
-**Leader : Jeon Seongjae**
+**Leader : Jeon Seongjae(https://github.com/jeonseongjae98)**
 
 | [<img src="https://avatars.githubusercontent.com/u/139290855?v=4" width="100">](https://github.com/ehgud619) | [<img src="https://avatars.githubusercontent.com/u/113097210?v=4" width="100">](https://github.com/hajaeryul) | [<img src="https://avatars.githubusercontent.com/u/114549688?v=4" width="100">](https://github.com/righthunkwon)  |   [<img src="https://avatars.githubusercontent.com/u/73871625?v=4" width="100">](https://github.com/MaSeongJin)   |
 |:----------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------:|
