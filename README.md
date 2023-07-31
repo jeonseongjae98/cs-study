@@ -1,12 +1,12 @@
 # CS Study
-SSAFY 8기 19반 cs스터디
+SSAFY 10기 06반 cs스터디
 
 ## Member
-**Leader : Park Yunhwan**
+**Leader : Jeon Seongjae**
 
-| [<img src="https://avatars.githubusercontent.com/u/47595515?s=40&v=4" width="100">](https://github.com/SadoRuin) | [<img src="https://avatars.githubusercontent.com/u/62232531?v=4" width="100">](https://github.com/wlsgh7608) | [<img src="https://avatars.githubusercontent.com/u/55372995?v=4" width="100">](https://github.com/devjunmo)  |   [<img src="https://avatars.githubusercontent.com/u/103018534?v=4" width="100">](https://github.com/Dodamon)   |
+| [<img src="https://avatars.githubusercontent.com/u/47595515?s=40&v=4" width="100">](https://github.com/ehgud619) | [<img src="https://avatars.githubusercontent.com/u/62232531?v=4" width="100">](https://github.com/wlsgh7608) | [<img src="https://avatars.githubusercontent.com/u/55372995?v=4" width="100">](https://github.com/devjunmo)  |   [<img src="https://avatars.githubusercontent.com/u/103018534?v=4" width="100">](https://github.com/Dodamon)   |
 |:----------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------:|
-|              [📖 Park YunHwan](https://sadoruin-notes.notion.site/5c51dcd873f24feb86a75bb071d85855)              |           [📖 Kong JinHo](https://meadow-pram-047.notion.site/cs-8ea8d7f0d60c4a7890093edcb2e29a1d)           |              [📖 Yang JunMo](https://github.com/devjunmo/TIL/blob/main/CS_Study/csStudyWiki.md)              |    [📖 Lee YeEun](https://chlorinated-koi-491.notion.site/Computer-science-beffd78d679242a18e40e59cfc7c4205)    |
+|              [📖 Park YunHwan](https://sadoruin-notes.notion.site/5c51dcd873f24feb86a75bb071d85855)              |           [📖 Ha JaeRyul](https://meadow-pram-047.notion.site/cs-8ea8d7f0d60c4a7890093edcb2e29a1d)           |              [📖 Yang JunMo](https://github.com/devjunmo/TIL/blob/main/CS_Study/csStudyWiki.md)              |    [📖 Lee YeEun](https://chlorinated-koi-491.notion.site/Computer-science-beffd78d679242a18e40e59cfc7c4205)    |
 |    [<img src="https://avatars.githubusercontent.com/u/55802893?v=4" width="100">](https://github.com/nowgnas)    | [<img src="https://avatars.githubusercontent.com/u/73810834?v=4" width="100"/>](https://github.com/Ryeohwan) | [<img src="https://avatars.githubusercontent.com/u/42470768?v=4" width="100"/>](https://github.com/irang6v6) | [<img src="https://avatars.githubusercontent.com/u/96561194?v=4" width="100">](https://github.com/cxzlkjhgfdsa) |
 |                              [📖 Lee SangWon](https://github.com/nowgnas/CS-Study)                               |                              [📖 Ahn RyeoHwan](https://github.com/Ryeohwan/TRL)                              |               [📖 Nam Irang](https://irangeight.notion.site/a219bdf343844c3d9a3cb554d085af79)                |        [📖 Lee SeongHeon](https://jealous-capybara-3a7.notion.site/CS-3c720e325d3247999ca7eac65fb81010)         |
 
@@ -39,11 +39,11 @@ SSAFY 8기 19반 cs스터디
 | 주차  | 제목                                                                                                                                                               | 발표자 |
 |-----|------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
 | 8/01 | [컴퓨터의 구성](./Contents/Network/TCP_IP%204계층%20%231.%20개념,%20캡슐화,%20비캡슐화,%20PDU,%20OSI%207계층.md)                                 | 권정훈 |
-| 8/01 | [중앙처리장치(CPU) 작동 원리](./Contents/Network/TCP_IP%204계층%20%232.%20MTU와%20MSS와%20PMTUD.md)                                                               | 하재률 |
-| 2주차 | [TCP/IP 4계층 #3. 애플리케이션 계층(application) HTTP, SSH, FTP, SMTP](./Contents/Network/TCP_IP%204계층%20%233.%20애플리케이션%20계층(application)%20HTTP,%20SSH,%20FTP,%20SMTP.md) | 양준모 |
-|     | [TCP/IP 4계층 #4. 전송 계층(transport) TCP와 UDP](./Contents/Network/TCP_IP%204계층%20%234.%20전송%20계층(transport)%20TCP와%20UDP.md)                                         | 이상원 |
-|     | [TCP/IP 4계층 #5. 인터넷 계층(network)과 ICMP](./Contents/Network/TCP_IP%204계층%20%235.%20인터넷%20계층(network)과%20ICMP.md)                                                   | 박윤환 |
-| 3주차 | [TCP의 연결성립과정 : 3-웨이 핸드쉐이크](./Contents/Network/TCP의%20연결성립과정%203-웨이%20핸드쉐이크.md)                                                                                   | 윤용운 |
+| 8/02 | [중앙처리장치(CPU) 작동 원리](./Contents/Network/TCP_IP%204계층%20%232.%20MTU와%20MSS와%20PMTUD.md)                                                               | 하재률 |
+| 8/03 | [캐시 메모리](./Contents/Network/TCP_IP%204계층%20%233.%20애플리케이션%20계층(application)%20HTTP,%20SSH,%20FTP,%20SMTP.md) | 김도형 |
+| 8/04 | [고정 소수점 & 부동 소수점](./Contents/Network/TCP_IP%204계층%20%234.%20전송%20계층(transport)%20TCP와%20UDP.md)                                         | 문준형 |
+| 8/08 | [패리티 비트 & 해밍 코드](./Contents/Network/TCP_IP%204계층%20%235.%20인터넷%20계층(network)과%20ICMP.md)                                                   | 마성진 |
+| 8/09 | [ARM 프로세서](./Contents/Network/TCP의%20연결성립과정%203-웨이%20핸드쉐이크.md)                                                                                   | 전성재 |
 |     | [TCP의 연결해제과정 : 4-웨이 핸드쉐이크와 TIME_WAIT](./Contents/Network/TCP의%20연결해제과정%204-웨이%20핸드쉐이크와%20TIME_WAIT.md)                                                           | 이예은 |
 |     | [라우팅 #1. 개념과 라우터](./Contents/Network/라우팅%20%231.%20개념과%20라우터.md)                                                                                                 | 공진호 |
 |     | [라우팅 #2. 라우팅테이블](./Contents/Network/라우팅%20%232.%20라우팅테이블.md)                                                                                                     | 채예진 |
