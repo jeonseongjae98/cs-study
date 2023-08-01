@@ -27,6 +27,7 @@ SSAFY 10기 06반 CS스터디
 - https://github.com/SSAFY-SEOUL-19-ALGO/cs-study
 - https://github.com/gyoogle/tech-interview-for-developer
 - 면접을 위한 CS 전공지식 노트
+- 정보처리기사 필기, 빅데이터분석기사, 정보보안기사, 컴퓨터 일반(기업 필기시험은 여기서 다 나옴!)
 
 # Contents
 ## 📌Computer Architecture
