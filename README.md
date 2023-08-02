@@ -22,14 +22,32 @@ SSAFY 10기 06반 CS스터디
 - <img height="20" src="https://user-images.githubusercontent.com/47595515/198836603-4a8efbb1-3a55-4130-b211-a039cb9cfd8d.png" width="20"/>CS지식의 정석 [🔗Link](https://inf.run/VE5F)
 - [Pull Request에 대한 설명](https://sadoruin-notes.notion.site/Pull-Request-3e8c9a7c98bc41819729e3b306ca9987)
 
+## 🔎스터디 참고자료
+- https://github.com/devham76/tech-interview-study
+- https://github.com/SSAFY-SEOUL-19-ALGO/cs-study
+- https://github.com/gyoogle/tech-interview-for-developer
+- 면접을 위한 CS 전공지식 노트
+- 정보처리기사 필기, 빅데이터분석기사, 정보보안기사, 컴퓨터 일반(기업 필기시험은 여기서 다 나옴!)
+
+## 💰지각 횟수(default 목숨 1개)
+- 마성진:
+- 김도형:
+- 권정훈:
+- 하재률:
+- 문준형:
+- 전성재:
+
+
 # Contents
 ## 📌Computer Architecture
 
 | 날짜  | 제목                                                                                                                                                               | 발표자 |
 |-----|------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
 | 23/08/01 | [컴퓨터의 구성](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Computer%20Architecture/%EC%BB%B4%ED%93%A8%ED%84%B0%EC%9D%98%20%EA%B5%AC%EC%84%B1.md)                          | 권정훈 |
+
 | 23/08/02 | [중앙처리장치(CPU) 작동 원리](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Computer%20Architecture/%EC%A4%91%EC%95%99%EC%B2%98%EB%A6%AC%EC%9E%A5%EC%B9%98(CPU)%20%EC%9E%91%EB%8F%99%20%EC%9B%90%EB%A6%AC)                                                               | 하재률 |
 | 23/08/03 | [캐시 메모리](https://github.com/ehgud619/cs-study/blob/main/Contents/Computer%20Architecture/캐시%20메모리.md)                                                       | 김도형 |
+
 | 23/08/04 | [고정 소수점 & 부동 소수점](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Computer%20Architecture/%EA%B3%A0%EC%A0%95%20%EC%86%8C%EC%88%98%EC%A0%90%20%26%20%EB%B6%80%EB%8F%99%20%EC%86%8C%EC%88%98%EC%A0%90)                                        | 문준형 |
 | 23/08/08 | [패리티 비트 & 해밍 코드](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Computer%20Architecture/%ED%8C%A8%EB%A6%AC%ED%8B%B0%20%EB%B9%84%ED%8A%B8%20%26%20%ED%95%B4%EB%B0%8D%20%EC%BD%94%EB%93%9C)                                                   | 마성진 |
 | 23/08/09 | [ARM 프로세서](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Computer%20Architecture/ARM%20%ED%94%84%EB%A1%9C%EC%84%B8%EC%84%9C)                                                                                   | 전성재 |
