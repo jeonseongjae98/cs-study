@@ -44,18 +44,18 @@ SSAFY 10기 06반 CS스터디
 | 날짜  | 제목                                                                                                                                                               | 발표자 |
 |-----|------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
 | 23/08/01 | [컴퓨터의 구성](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Computer%20Architecture/%EC%BB%B4%ED%93%A8%ED%84%B0%EC%9D%98%20%EA%B5%AC%EC%84%B1.md)                          | 권정훈 |
-| 23/08/02 | [중앙처리장치(CPU) 작동 원리](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Computer%20Architecture/%EC%A4%91%EC%95%99%EC%B2%98%EB%A6%AC%EC%9E%A5%EC%B9%98(CPU)%20%EC%9E%91%EB%8F%99%20%EC%9B%90%EB%A6%AC.md)                                                               | 하재률 |
-| 23/08/03 | [캐시 메모리](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Computer%20Architecture/%EC%BA%90%EC%8B%9C%20%EB%A9%94%EB%AA%A8%EB%A6%AC) | 김도형 |
-| 23/08/04 | [고정 소수점 & 부동 소수점](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Computer%20Architecture/%EA%B3%A0%EC%A0%95%20%EC%86%8C%EC%88%98%EC%A0%90%20%26%20%EB%B6%80%EB%8F%99%20%EC%86%8C%EC%88%98%EC%A0%90)                                        | 문준형 |
-| 23/08/08 | [패리티 비트 & 해밍 코드](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Computer%20Architecture/%ED%8C%A8%EB%A6%AC%ED%8B%B0%20%EB%B9%84%ED%8A%B8%20%26%20%ED%95%B4%EB%B0%8D%20%EC%BD%94%EB%93%9C)                                                   | 마성진 |
-| 23/08/09 | [ARM 프로세서](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Computer%20Architecture/ARM%20%ED%94%84%EB%A1%9C%EC%84%B8%EC%84%9C)                                                                                   | 전성재 |
+| 23/08/02 | [중앙처리장치(CPU) 작동 원리](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Computer%20Architecture/%EC%A4%91%EC%95%99%EC%B2%98%EB%A6%AC%EC%9E%A5%EC%B9%98(CPU)%20%EC%9E%91%EB%8F%99%20%EC%9B%90%EB%A6%AC)                 | 하재률 |
+| 23/08/03 | [캐시 메모리](https://github.com/ehgud619/cs-study/blob/main/Contents/Computer%20Architecture/캐시%20메모리.md)                                              | 김도형 |
+| 23/08/04 | [고정 소수점 & 부동 소수점](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Computer%20Architecture/%EA%B3%A0%EC%A0%95%20%EC%86%8C%EC%88%98%EC%A0%90%20%26%20%EB%B6%80%EB%8F%99%20%EC%86%8C%EC%88%98%EC%A0%90)                                        | 마성진 |
+| 23/08/08 | [패리티 비트 & 해밍 코드](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Computer%20Architecture/%ED%8C%A8%EB%A6%AC%ED%8B%B0%20%EB%B9%84%ED%8A%B8%20%26%20%ED%95%B4%EB%B0%8D%20%EC%BD%94%EB%93%9C)                                                   | 전성재 |
+| 23/08/09 | [ARM 프로세서](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Computer%20Architecture/ARM%20%ED%94%84%EB%A1%9C%EC%84%B8%EC%84%9C)                                  | 김도형 |
 | 23/08/10 | [Array](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Data%20Structure/Array)                                                           | 권정훈 |
 | 23/08/11 | [LinkedList](./Contents/Network/라우팅%20%231.%20개념과%20라우터.md)                                                                                                 | 하재률 |
 | 23/08/15 | [Array & ArrayList & LinkedList](./Contents/Network/라우팅%20%232.%20라우팅테이블.md)                                                                                                     | 김도형 |
-| 23/08/16 | [스택(Stack) & 큐(Queue)](./Contents/Network/IP주소,%20MAC주소,%20ARP,%20RARP.md)                                                                                     | 문준형 |
-| 23/08/17 | [힙(Heap)](./Contents/Network/IP주소체계%20%231.%20이진수%20이해하기.md)                                                                                         | 마성진 |
-| 23/08/18 | [트리(Tree)](./Contents/Network/IP주소체계%20%232.%20IPv4와%20IPv6.md)                                                                                     | 전성재 |
-| 23/08/22 | [이진탐색트리(Binary Search Tree))](./Contents/Network/IP주소체계%20%233.%20클래스풀(Classful%20IP%20Addressing).md)                                               |  |
+| 23/08/17 | [스택(Stack) & 큐(Queue)](./Contents/Network/IP주소,%20MAC주소,%20ARP,%20RARP.md)                                                                                     | 문준형 |
+| 23/08/18 | [힙(Heap)](./Contents/Network/IP주소체계%20%231.%20이진수%20이해하기.md)                                                                                         | 마성진 |
+| 23/08/22 | [트리(Tree)](./Contents/Network/IP주소체계%20%232.%20IPv4와%20IPv6.md)                                                                                     | 전성재 |
+| 23/08/23 | [이진탐색트리(Binary Search Tree))](./Contents/Network/IP주소체계%20%233.%20클래스풀(Classful%20IP%20Addressing).md)                                               |  |
 | 5주차 | [IP주소체계 #4. 클래스리스와 서브넷마스크, 서브네팅](./Contents/Network/IP주소체계%20%234.%20클래스리스와%20서브넷마스크,%20서브네팅.md)                                                                 |     |
 |     | [IP주소체계 #5. 공인IP(public IP)와 사설IP(private IP)와 NAT](./Contents/Network/IP주소체계%20%235.%20공인IP(public%20IP)와%20사설IP(private%20IP)와%20NAT.md)                       |     |
 |     | [DEEP DIVE : www<hi>.naver.com을 주소창에 입력했을 때 화면이 나타나기까지의 과정](./Contents/Network/DEEP%20DIVE%20-%20www.naver.com을%20주소창에%20입력했을%20때%20화면이%20나타나기까지의%20과정.md)       |     |
