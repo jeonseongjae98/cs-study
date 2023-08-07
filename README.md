@@ -48,7 +48,7 @@ SSAFY 10기 06반 CS스터디
 | 23/08/03 | [캐시 메모리](https://github.com/ehgud619/cs-study/blob/main/Contents/Computer%20Architecture/캐시%20메모리.md)                                              | 김도형 |
 | 23/08/04 | [고정 소수점 & 부동 소수점](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Computer%20Architecture/%EA%B3%A0%EC%A0%95%20%EC%86%8C%EC%88%98%EC%A0%90%20%26%20%EB%B6%80%EB%8F%99%20%EC%86%8C%EC%88%98%EC%A0%90.md)                                        | 마성진 |
 | 23/08/08 | [패리티 비트 & 해밍 코드](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Computer%20Architecture/%ED%8C%A8%EB%A6%AC%ED%8B%B0%20%EB%B9%84%ED%8A%B8%20%26%20%ED%95%B4%EB%B0%8D%20%EC%BD%94%EB%93%9C)                                                   | 전성재 |
-| 23/08/09 | [ARM 프로세서](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Computer%20Architecture/ARM%20%ED%94%84%EB%A1%9C%EC%84%B8%EC%84%9C)                                  | 김도형 |
+| 23/08/09 | [ARM 프로세서](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Computer%20Architecture/ARM%20%ED%94%84%EB%A1%9C%EC%84%B8%EC%84%9C)                                  | 문준형 |
 | 23/08/10 | [Array](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Data%20Structure/Array)                                                           | 권정훈 |
 | 23/08/11 | [LinkedList](./Contents/Network/라우팅%20%231.%20개념과%20라우터.md)                                                                                                 | 하재률 |
 | 23/08/15 | [Array & ArrayList & LinkedList](./Contents/Network/라우팅%20%232.%20라우팅테이블.md)                                                                                                     | 김도형 |
