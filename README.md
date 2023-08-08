@@ -58,9 +58,13 @@ SSAFY 10기 06반 CS스터디
 | 23/08/23 | [트리(Tree)](./Contents/Network/IP주소체계%20%232.%20IPv4와%20IPv6.md)                                                                                     | 전성재 |
 | 23/08/24 | [이진탐색트리(Binary Search Tree))](./Contents/Network/IP주소체계%20%233.%20클래스풀(Classful%20IP%20Addressing).md)                                               |  |
 
+## 📌Algorithm
 
-
-
+| 날짜  | 제목                                                                                                                                                               | 발표자 |
+|-----|------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
+| 23/08/01 | [컴퓨터의 구성](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Computer%20Architecture/%EC%BB%B4%ED%93%A8%ED%84%B0%EC%9D%98%20%EA%B5%AC%EC%84%B1.md)                          | 권정훈 |
+| 23/08/02 | [중앙처리장치(CPU) 작동 원리](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Computer%20Architecture/%EC%A4%91%EC%95%99%EC%B2%98%EB%A6%AC%EC%9E%A5%EC%B9%98(CPU)%20%EC%9E%91%EB%8F%99%20%EC%9B%90%EB%A6%AC)                 | 하재률 |
+| 23/08/03 | [캐시 메모리](https://github.com/ehgud619/cs-study/blob/main/Contents/Computer%20Architecture/캐시%20메모리.md)                                              | 김도형 |
 
 
 
