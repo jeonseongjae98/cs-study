@@ -1,11 +1,11 @@
-### 자료구조
+## 자료구조
 자료구조란?
 - 자료들이 논리적으로 정의된 규칙에 의해 나열된 것
 - 자료에 대한 처리를 효율적으로 수행할 수 있도록 자료를 구분지어 표현한 것
 - 데이터를 효율적으로 관리하고 수정, 삭제, 탐색, 저장할 수 있는 데이터의 구조
 
 
-### 알고리즘
+## 알고리즘
 알고리즘이란?
 - 어떤 문제를 해결하기 위해 필요한 계산 절차나 처리 과정의 순서
 - 레고를 조립할 때 설명서를 보지 않을 수도 있지만 설명서를 보면 가장 빨리 조립
@@ -13,7 +13,7 @@
 - 가령, 배열 데이터 안의 요소를 숫자가 작은 순으로 정렬해야 한다고 하면 어떤 방법을 사용할지 고민하게 되는데, 이때 적절한 설명서인 적절한 알고리즘을 활용하면 빠르게 처리 가능
 
 
-### 시간복잡도
+## 시간복잡도
 - 특정 알고리즘이 '어떤 문제를 해결하는 데 걸리는 시간'
 - 시간복잡도는 효율적인 코드로 개선하는 데 쓰이는 척도로 기능
 - 각 알고리즘은 문제를 해결하는데 평균적으로 일정 시간이 걸린다고 할지라도 시간복잡도의 개념에서는 최악의 경우를 계산하는 방식인 빅오(Big-O)표기법을 주로 활용 
@@ -21,32 +21,32 @@
 - 즉, 시간복잡도는 '충분히 큰 수'로 취급되기에 최고차항을 제외한 나머지 항은 무시
 - 만약, 입력 크기 n의 모든 입력에 대한 알고리즘에 필요한 시간이 10n^2 + n이라고 하면, 해당 코드의 시간 복잡도는 O(n^2). 앞서 설명한 것처럼 컴퓨터의 연산 속도는 1초당 1억회로 무척 빠르기에 가장 영향을 많이 끼리는 항을 제외하고 나머지 항은 고려하지 않으며 최고차항의 계수 역시 무시.
 
-O(1) (Constant, 상수 시간)
+#### O(1) (Constant, 상수 시간)
 입력 데이터의 크기에 상관없이언제나 일정한 시간이 걸리는 알고리즘을 나타내며 데이터가 크든 적든 성능에 영향을 미치지 않는다.
 가장 빠른 시간이다.
 
-O(log2 n) (Logarithmic, 로그 시간)
+#### O(log2 n) (Logarithmic, 로그 시간)
 입력 데이터의 크기가 커질수록 시간이 로그(log) 만큼 짧아지는 알고리즘
 가령, 데이터가 10배가 되면 처리 시간은 2배 증가
 
-O(n) (Linear, 선형 시간)
+#### O(n) (Linear, 선형 시간)
 입력 데이터의 크기에 비례해 처리 시간이 증가하는 알고리즘
 가령, 데이터의 크기가 10배가 되면 처리 시간도 10배 증가
 시간 복잡도가 linear하게 증가, for 문이 대표적(range = n)
 
-O(n log2 n) (Linear-Logarithmic, 선형 로그 시간)
+#### O(n log2 n) (Linear-Logarithmic, 선형 로그 시간)
 입력 데이터의 크기가 커질수록 시간이 로그(log)배만큼 커지는 알고리즘
 가령, 데이터가 10배가되면 처리시간은 20배 증가
 
-O(n^2) (Quadratic, 제곱시간)
+#### O(n^2) (Quadratic, 제곱시간)
 입력 데이터의 크기가 커질수록 시간이 제곱이 되는 알고리즘
 가령, 데이터가 10배가 되면 처리 시간은 100배 증가
 
-자료구조별 시간복잡도
+자료구조별 시간복잡도<br />
 <img src="https://velog.velcdn.com/images%2Fcrosstar1228%2Fpost%2F591105cd-d9a4-4c26-b603-f8b65efad7ac%2Fimage.png">
 
 
-### 공간복잡도
+## 공간복잡도
 공간복잡도란 프로그램의 성능을 나타내는 지표 중 하나
 작성한 프로그램이 얼마나 많은 메모리를 차지하는지 나타내는 방법
 컴퓨터 성능의 발달로 인해 메모리 공간이 충분해져 공간복잡도의 중요성은 시간복잡도에 비해 낮아졌지만, 여전히 중요
@@ -61,7 +61,7 @@ O(n^2) (Quadratic, 제곱시간)
 ## 자료구조의 종류
 자료구조는 크게 선형 자료구조와 비선형 자료구조로 구분
 선형 자료구조는 데이터가 일렬로 나열되어 있는 것
-비션형 자료구조는 데이터가 일렬로 나열되어 있지 않고 특정한 형태를 띄고 있는 것
+비션형 자료구조는 데이터가 일렬로 나열되어 있지 않고 특정한 형태를 띄고 있는 것<br />
 <img src="https://cheris8.github.io/assets/images/PY/datastructure-overview.png">
 
 ### 선형 자료구조
@@ -109,15 +109,13 @@ prev 포인터와 next 포인터로 앞과 뒤의 노드를 연결
 자바에서 덱은 인터페이스로 구현, 덱 자료구조의 여러 연산들을 정의한 Deque 인터페이스가 존재하고,
 이를 구현한 ArrayDeque, LinkedBlockingDeque, ConcurrentLinkedDeque, LinkedList 등의 클래스가 있다. 
 
-Deque 인터페이스의 메소드
+Deque 인터페이스의 메소드<br />
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F99DEB94D5C47326713">
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F99DB55355C4734EB23">
 
 
+## 이미지 출처<br />
+<a href="https://cheris8.github.io/python/DS-Overview/">이미지 출처</a>
 
-## 이미지 출처
-<a href="https://cheris8.github.io/python/DS-Overview/">
-
-## 참고
-<a href="https://wpunch2000.tistory.com/28">
-<a href="https://dnf-lover.tistory.com/entry/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EC%9D%98-%EC%84%A0%ED%98%95-%EB%B9%84%EC%84%A0%ED%98%95-%EB%B6%84%EB%A5%98%EC%97%90-%EB%94%B0%EB%A5%B8-%EA%B0%81-%EC%A2%85%EB%A5%98%EC%99%80-%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EB%B3%84-%ED%8A%B9%EC%A7%95-%EA%B0%84%EB%8B%A8-%EC%A0%95%EB%A6%AC">
+## 참고<br />
+<a href="https://wpunch2000.tistory.com/28">선형 자료구조</a>
