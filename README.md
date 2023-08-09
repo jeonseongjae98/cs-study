@@ -56,17 +56,23 @@ SSAFY 10기 06반 CS스터디
 
 | 날짜  | 제목                                                                                                                                                               | 발표자 |
 |-----|------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| 23/08/10 | [Array & ArrayList & LinkedList](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Data%20Structure/Array)                                                           | 권정훈 |
-| 23/08/11 | [스택(Stack) & 큐(Queue)](./Contents/Network/라우팅%20%231.%20개념과%20라우터.md)                                                                                                 | 하재률 |
-| 23/08/17 | [힙(Heap)](./Contents/Network/라우팅%20%232.%20라우팅테이블.md)                                                                                                     | 김도형 |
-| 23/08/18 | [트리(Tree)](./Contents/Network/IP주소,%20MAC주소,%20ARP,%20RARP.md)                                                                                     | 문준형 |
-| 23/08/22 | [이진탐색트리(Binary Search Tree)](./Contents/Network/IP주소체계%20%231.%20이진수%20이해하기.md)                                                                                         | 마성진 |
-| 23/08/23 | [트리(Tree)](./Contents/Network/IP주소체계%20%232.%20IPv4와%20IPv6.md)                                                                                     | 전성재 |
-| 23/08/24 | [이진탐색트리(Binary Search Tree))](./Contents/Network/IP주소체계%20%233.%20클래스풀(Classful%20IP%20Addressing).md)                                               |  |
-
-
-
-
+| 23/08/10 | [선형 자료구조](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Data%20Structure/Array)                                                           | 권정훈 |
+| 23/08/11 | [비선형 자료구조](./Contents/Network/라우팅%20%231.%20개념과%20라우터.md)                                                                                                 | 하재률 |
+| 23/08/17 | [선형탐색, 이진탐색](./Contents/Network/라우팅%20%232.%20라우팅테이블.md)                                                                                                     | 김도형 |
+| 23/08/18 | [순차탐색, 해시탐색](./Contents/Network/IP주소,%20MAC주소,%20ARP,%20RARP.md)                                                                                     | 문준형 |
+| 23/08/22 | [버블, 선택, 삽입, 카운팅 정렬](./Contents/Network/IP주소체계%20%231.%20이진수%20이해하기.md)                                                                                         | 마성진 |
+| 23/08/23 | [병합, 힙 정렬](./Contents/Network/IP주소체계%20%232.%20IPv4와%20IPv6.md)                                                                                     | 전성재 |
+| 23/08/24 | [퀵, 기수 정렬](./Contents/Network/IP주소체계%20%233.%20클래스풀(Classful%20IP%20Addressing).md)                                               | 권정훈 |
+| 23/08/25 | [브루트 포스, 비트 마스크](./Contents/Network/IP주소체계%20%233.%20클래스풀(Classful%20IP%20Addressing).md)                                               | 하재률 |
+| 23/08/29 | [백트래킹, 그리디](./Contents/Network/IP주소체계%20%233.%20클래스풀(Classful%20IP%20Addressing).md)                                               | 김도형 |
+| 23/08/30 | [순열, 재귀](./Contents/Network/IP주소체계%20%233.%20클래스풀(Classful%20IP%20Addressing).md)                                               | 문준형 |
+| 23/08/31 | [DFS, BFS](./Contents/Network/IP주소체계%20%233.%20클래스풀(Classful%20IP%20Addressing).md)                                               | 마성진 |
+| 23/09/01 | [분할 정복](./Contents/Network/IP주소체계%20%233.%20클래스풀(Classful%20IP%20Addressing).md)                                               | 전성재 |
+| 23/09/05 | [동적계획법](./Contents/Network/IP주소체계%20%233.%20클래스풀(Classful%20IP%20Addressing).md)                                               | 하재률 |
+| 23/09/06 | [트리](./Contents/Network/IP주소체계%20%233.%20클래스풀(Classful%20IP%20Addressing).md)                                               | 권정훈 |
+| 23/09/07 | [그래프](./Contents/Network/IP주소체계%20%233.%20클래스풀(Classful%20IP%20Addressing).md)                                               | 김도형 |
+| 23/09/08 | [최단 경로](./Contents/Network/IP주소체계%20%233.%20클래스풀(Classful%20IP%20Addressing).md)                                               | 문준형 |
+| 23/09/12 | [최소 신장 트리](./Contents/Network/IP주소체계%20%233.%20클래스풀(Classful%20IP%20Addressing).md)                                               | 마성진 |
 
 | 5주차 | [IP주소체계 #4. 클래스리스와 서브넷마스크, 서브네팅](./Contents/Network/IP주소체계%20%234.%20클래스리스와%20서브넷마스크,%20서브네팅.md)                                                                 |     |
 |     | [IP주소체계 #5. 공인IP(public IP)와 사설IP(private IP)와 NAT](./Contents/Network/IP주소체계%20%235.%20공인IP(public%20IP)와%20사설IP(private%20IP)와%20NAT.md)                       |     |
