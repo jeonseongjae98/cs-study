@@ -68,7 +68,7 @@
 - 선형 자료구조는 데이터가 일렬로 나열되어 있는 것
 - 비선형 자료구조는 데이터가 일렬로 나열되어 있지 않고 특정한 형태를 띄고 있는 것
 <br />
-<img src="https://cheris8.github.io/assets/images/PY/datastructure-overview.png"><br />
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbL9JS7%2FbtsqMhurbWD%2FViGSwTliXKBUk5hXTyc6U0%2Fimg.png"><br />
 
 
 ## 선형 자료구조
@@ -156,9 +156,12 @@
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fby21F4%2FbtrrpmvMJXx%2FB6E558PT03jOfscmETKkVk%2Fimg.png"><br />
 
 <br />
-## 이미지 출처<br />
+
+## 이미지 출처
+<br />
 <a href="https://cheris8.github.io/python/DS-Overview/" target="_blank">이미지 출처1</a>
 <a href="https://kkangdda.tistory.com/30" target="_blank">이미지 출처2</a>
 
-## 참고<br />
+## 참고
+<br />
 <a href="https://wpunch2000.tistory.com/28" target="_blank">선형 자료구조</a>
