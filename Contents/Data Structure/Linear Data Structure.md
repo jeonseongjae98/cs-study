@@ -155,6 +155,23 @@
 <br />
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fby21F4%2FbtrrpmvMJXx%2FB6E558PT03jOfscmETKkVk%2Fimg.png"><br />
 
+## 문제
+#### 문제 1
+스택에 대한 설명으로 틀린 것은? <br />
+① 입출력이 한쪽 끝으로만 제한된 리스트이다. <br />
+② Head(Front)와 Tail(Rear)의 두 개 포인터를 갖고 있다. <br />
+③ LIFO 구조이다. <br />
+④ 더 이상 삭제할 테이터가 없는 상태에서 데이터를 삭제하면 언더플로(Underflow)가 발생한다. <br />
+<br />
+
+#### 문제 2
+자료구조에 대한 설명으로 틀린 것은? <br />
+① 큐는 비선형구조에 해당한다. <br />
+② 큐는 First in - First out 처리를 수행한다. <br />
+③ 스택은 Last in - First out 처리를 수행한다. <br />
+④ 스택은 서브루틴 호출, 인터럽트 처리, 수식 계산 및 수식 표기법에 응용된다. <br />
+<br />
+
 <br />
 
 ## 이미지 출처
@@ -165,3 +182,7 @@
 ## 참고
 <br />
 <a href="https://wpunch2000.tistory.com/28" target="_blank">선형 자료구조</a>
+<br />
+
+#### 문제 정답 2, 1
+
