@@ -183,6 +183,11 @@
 <br />
 <a href="https://wpunch2000.tistory.com/28" target="_blank">선형 자료구조</a>
 <br />
+<a href="https://go-coding.tistory.com/m/5">
+<br />
+<a href="https://go-coding.tistory.com/m/6">
+<br /><br />
+
 
 #### 문제 정답 2, 1
 
