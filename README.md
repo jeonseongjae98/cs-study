@@ -56,7 +56,7 @@ SSAFY 10기 06반 CS스터디
 
 | 날짜  | 제목                                                                                                                                                               | 발표자 |
 |-----|------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| 23/08/10 | [선형 자료구조](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Data%20Structure/Array)                                                           | 권정훈 |
+| 23/08/10 | [선형 자료구조]([https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Data%20Structure/Array](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Data%20Structure/Linear%20Data%20Structure.md))                                                           | 권정훈 |
 | 23/08/11 | [비선형 자료구조](./Contents/Network/라우팅%20%231.%20개념과%20라우터.md)                                                                                                 | 하재률 |
 | 23/08/17 | [선형탐색, 이진탐색](./Contents/Network/라우팅%20%232.%20라우팅테이블.md)                                                                                                     | 김도형 |
 | 23/08/18 | [순차탐색, 해시탐색](./Contents/Network/IP주소,%20MAC주소,%20ARP,%20RARP.md)                                                                                     | 문준형 |
