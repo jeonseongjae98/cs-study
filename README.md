@@ -58,7 +58,7 @@ SSAFY 10기 06반 CS스터디
 |-----|------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
 | 23/08/10 | [선형 자료구조](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Data%20Structure/Linear%20Data%20Structure.md)                                                           | 권정훈 |
 | 23/08/17 | [비선형 자료구조](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Data%20Structure/%EB%B9%84%EC%84%A0%ED%98%95%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0.md)                                                                                                 | 하재률 |
-| 23/08/18 | [선형탐색, 이진탐색](./Contents/Network/라우팅%20%232.%20라우팅테이블.md)                                                                                                     | 김도형 |
+| 23/08/18 | [선형탐색, 이진탐색](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Data%20Structure/%EC%84%A0%ED%98%95%ED%83%90%EC%83%89%EA%B3%BC%20%EC%9D%B4%EC%A7%84%ED%83%90%EC%83%89.md)                                                                                                     | 김도형 |
 | 23/08/22 | [순차탐색, 해시탐색](./Contents/Network/IP주소,%20MAC주소,%20ARP,%20RARP.md)                                                                                     | 문준형 |
 | 23/08/23 | [버블, 선택, 삽입, 카운팅 정렬](./Contents/Network/IP주소체계%20%231.%20이진수%20이해하기.md)                                                                                         | 마성진 |
 | 23/08/24 | [병합, 힙 정렬](./Contents/Network/IP주소체계%20%232.%20IPv4와%20IPv6.md)                                                                                     | 전성재 |
