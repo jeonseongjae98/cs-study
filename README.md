@@ -63,8 +63,8 @@ SSAFY 10기 06반 CS스터디
 | 23/08/23 | [버블, 선택, 삽입, 카운팅 정렬](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Algorithm/%EB%B2%84%EB%B8%94%2C%20%EC%84%A0%ED%83%9D%2C%20%EC%82%BD%EC%9E%85%2C%20%EC%B9%B4%EC%9A%B4%ED%8C%85%20%EC%A0%95%EB%A0%AC.md)                                                                                         | 마성진 |
 | 23/08/24 | [병합, 힙 정렬](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Algorithm/%EB%B3%91%ED%95%A9,%20%ED%9E%99%20%EC%A0%95%EB%A0%AC.md)                                                                                     | 전성재 |
 | 23/08/25 | [퀵, 기수 정렬](./Contents/Network/IP주소체계%20%233.%20클래스풀(Classful%20IP%20Addressing).md)                                               | 권정훈 |
-| 23/08/29 | [브루트 포스, 비트 마스크](./Contents/Network/IP주소체계%20%233.%20클래스풀(Classful%20IP%20Addressing).md)                                               | 하재률 |
-| 23/08/30 | [백트래킹, 그리디](./Contents/Network/IP주소체계%20%233.%20클래스풀(Classful%20IP%20Addressing).md)                                               | 김도형 |
+| 23/08/29 | [브루트 포스, 비트 마스크](./Contents/Network/IP주소체계%20%233.%20클래스풀(Classful%20IP%20Addressing).md)                                               | 김도형 |
+| 23/08/30 | [백트래킹, 그리디](./Contents/Network/IP주소체계%20%233.%20클래스풀(Classful%20IP%20Addressing).md)                                               | 하재률 |
 | 23/08/31 | [순열, 재귀](./Contents/Network/IP주소체계%20%233.%20클래스풀(Classful%20IP%20Addressing).md)                                               | 문준형 |
 | 23/09/01 | [DFS, BFS](./Contents/Network/IP주소체계%20%233.%20클래스풀(Classful%20IP%20Addressing).md)                                               | 마성진 |
 | 23/09/05 | [분할 정복](./Contents/Network/IP주소체계%20%233.%20클래스풀(Classful%20IP%20Addressing).md)                                               | 전성재 |
