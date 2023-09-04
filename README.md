@@ -79,7 +79,7 @@ SSAFY 10기 06반 CS스터디
 | 23/09/08 | [ERD(Entity Relation Diagram)의 기본 및 기초 문법](./Contents/Database/ERD(Entity%20Relation%20Diagram)의%20기본.md)                                                                     | 김도형 |
 | 23/09/12 | [데이터베이스 정규화과정 #1. 개념과 이상현상, 함수적 종속성](./Contents/Database/데이터베이스%20정규화과정%20%231.%20개념과%20이상현상.md)                                                                               | 문준형 |                                      
 | 23/09/13 | [데이터베이스 정규화과정 #2. 정규화과정 1NF~5NF](./Contents/Database/데이터베이스%20정규화과정%20%237%20정규화과정%20정리.md)  | 마성진 |
-| 23/09/14 | [데이터베이스의 종류(관계형데이터베이스와 NoSQL 데이터베이스의 차이와 MySQL, PostgreSQL, MongoDB, Redis)](./Contents/Database/ERD(Entity%20Relation%20Diagram)의%20기본.md)     | 전성재 |
+| 23/09/14 | [데이터베이스의 종류(관계형데이터베이스와 NoSQL 데이터베이스의 차이와 <br/>MySQL, PostgreSQL, MongoDB, Redis)](./Contents/Database/ERD(Entity%20Relation%20Diagram)의%20기본.md)     | 전성재 |
 | 23/09/15 | [인덱스(필요성, B-트리, 인덱스 만드는 방법, 최적화 기법 등)](./Contents/Database/트랜잭션,%20커밋,%20롤백%20그리고%20트랜잭션%20전파.md)      | 권정훈 |
 | 23/09/19 | [조인의 종류(내부조인, 왼쪽조인, 오른쪽조인, 합집합 조인의 차이 등)](./Contents/Database/내부조인,%20왼쪽조인,%20오른쪽조인,%20합집합%20조인의%20차이.md)                                                                       | 하재률 |
 | 23/09/20 | [조인의 원리(중첩루프조인, 정렬병합조인, 해시조인의 차이)](./Contents/Database/중첩루프조인,%20정렬병합조인,%20해시조인의%20차이.md)           | 김도형 |
