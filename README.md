@@ -76,7 +76,7 @@ SSAFY 10기 06반 CS스터디
 | 날짜  | 제목                                                                                                                                                                    | 발표자 |
 |-----|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
 | 23/09/07 | [데이터베이스의 기본](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Database/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%EC%9D%98%20%EA%B8%B0%EB%B3%B8.md)     | 권정훈 |
-| 23/09/08 | [ERD(Entity Relation Diagram)의 기본 및 기초 문법](./Contents/Database/ERD(Entity%20Relation%20Diagram)의%20기본.md)                                                                     | 김도형 |
+| 23/09/08 | [ERD(Entity Relation Diagram)의 기본 및 기초 문법](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Database/ERD%EC%9D%98%20%EA%B8%B0%EB%B3%B8%20%EB%B0%8F%20%EA%B8%B0%EC%B4%88%20%EB%AC%B8%EB%B2%95.md)                                                                     | 김도형 |
 | 23/09/12 | [데이터베이스 정규화과정 #1. 개념과 이상현상, 함수적 종속성](./Contents/Database/데이터베이스%20정규화과정%20%231.%20개념과%20이상현상.md)                                                                               | 문준형 |                                      
 | 23/09/13 | [데이터베이스 정규화과정 #2. 정규화과정 1NF~5NF](./Contents/Database/데이터베이스%20정규화과정%20%237%20정규화과정%20정리.md)  | 마성진 |
 | 23/09/14 | [데이터베이스의 종류(관계형데이터베이스와 NoSQL 데이터베이스의 차이와 <br/>MySQL, PostgreSQL, MongoDB, Redis)](./Contents/Database/ERD(Entity%20Relation%20Diagram)의%20기본.md)     | 전성재 |
