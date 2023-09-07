@@ -45,7 +45,7 @@
 [![2023-09-08-041837.png](https://i.postimg.cc/FzYr3dJn/2023-09-08-041837.png)](https://postimg.cc/m1GWGrjQ)
 - Entity는 **정의 가능한 사물 또는 개념**을 의미한다.
 - 사람도 될 수 있으며 프로필이나 도서 정보와 같은 무형의 정보도 데이터화가 가능하다.
-- 네모 형태로 표현
+- 사각형으로 표현
   
 ---
 
@@ -53,8 +53,12 @@
 [![2023-09-08-041846.png](https://i.postimg.cc/fbFDZWPc/2023-09-08-041846.png)](https://postimg.cc/Jyb958M0)
 - Entity는 개체가 갖고 있는 속성(Attribute)을 포함한다.
 - 예를 들어 학생 Entity라면, 학번, 이름, 주소, 전공 ..등 속성들이 있다.
-- 동그라미 형태로 표현
-
+- 타원으로 표현
+- 키 애트리뷰트 ( Key Attribute )
+- 복합 애트리뷰트 ( Composite Attribute )
+- 다중값 애트리뷰트 ( Multi-Valued Attribute )
+- 유도된 애트리뷰트 ( Derived Attribute )
+  
 ---
 
 ### 3. 관계(Relationship)
@@ -62,7 +66,7 @@
 [![2023-09-08-041906.png](https://i.postimg.cc/j55w3j7y/2023-09-08-041906.png)](https://postimg.cc/GBWmHdzp)
 - Relationship은 Entity간의 상호작용을 표현함
 - 1:1 , 1: N , N:M 관계 등이 가능하다.
-- 마름모 형태로 표현
+- 마름모로 표현
 
 
 ## Cardinality(관계의 기수성)
@@ -108,7 +112,12 @@
 [![2023-09-08-042032.png](https://i.postimg.cc/TwJyPDX8/2023-09-08-042032.png)](https://postimg.cc/WFtpWt3S)
 실제 관계형 데이터베이스에서는 위와 같이 바뀐다!
 
+---
 
+[![image.png](https://i.postimg.cc/x8q5nGWf/image.png)](https://postimg.cc/1VhwKFm2)
+
+
+---
 Q .**E-R 모델의 표현 방법**으로 옳지 않은 것은? 
 
 [정답률: 26%]정보처리기사(2020년 이후) 필기 (2020년 1회·2회 통합 기출문제)
