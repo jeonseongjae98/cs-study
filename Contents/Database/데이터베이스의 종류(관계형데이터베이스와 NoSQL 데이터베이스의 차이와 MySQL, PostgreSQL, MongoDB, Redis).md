@@ -60,11 +60,13 @@
  
 
 3. Wide Column Database</br>
+[![image.png](https://i.postimg.cc/52pmbLS0/image.png)](https://postimg.cc/xXJmPk7D)
+
 	Column-family Model 기반의 Database이며 이전의 모델들이 Key-Value 값을 이용해 필드를 결정했다면, 특이하게도 이 모델은 키에서 필드를 결정한다. 키는 Row(키 값)와 Column-family, Column-name을 가진다. 연관된 데이터들은 같은 Column-family 안에 속해 있으며, 각자의 Column-name을 가진다. 관계형 모델로 설명하자면 어트리뷰트가 계층적인 구조를 가지고 있는 셈이다. 이렇게 저장된 데이터는 하나의 커다란 테이블로 표현이 가능하며, 질의는 Row, Column-family, Column-name을 통해 수행된다.
 	대표적인 **NoSQL Column-family Model로는 HBase(=에이치베이스), Hypertable(=하이퍼테이블)** 등이 있다.
  
 
-4. Graph Database</br>
+5. Graph Database</br>
 	[![3.png](https://i.postimg.cc/DzV2pPZD/3.png)](https://postimg.cc/bZTcsb1H)
 	Graph Model Database에서는 데이터를 Node와 Edge, Property와 함께 그래프 구조를 사용하여 데이터를 표현하고 저장하는 Database입니다. 개체와 관계를 그래프 형태로 표현한 것이므로 관계형 모델이라고 할 수 있으며, 데이터 간의 관계가 탐색의 키일 경우에 적합하다. 페이스북이나 트위터 같은 소셜 네트워크에서(내 친구의 친구를 찾는 질의 등) 적합하고, 연관된 데이터를 추천해주는 추천 엔진이나 패턴 인식 등의 데이터베이스로도 적합하다.
 	대표적인 **NoSQL Graph Model로는 Neo4J(=네오포제이)**가 있다.
