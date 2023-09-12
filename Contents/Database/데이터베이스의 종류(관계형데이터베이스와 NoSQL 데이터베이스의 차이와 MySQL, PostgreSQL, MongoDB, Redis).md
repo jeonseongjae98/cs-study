@@ -41,7 +41,9 @@
 		[![136903171-2fa97983-a678-4fda-8128-ff007ab95c84.png](https://i.postimg.cc/PfFfmvpv/136903171-2fa97983-a678-4fda-8128-ff007ab95c84.png)](https://postimg.cc/G9G1R2jb)
 
 ## NoSQL 특징
+
 [![136900399-b4615b3a-8afa-4950-9513-9ce35748588f.png](https://i.postimg.cc/zGzcpZzc/136900399-b4615b3a-8afa-4950-9513-9ce35748588f.png)](https://postimg.cc/8jY4PYrR)
+
 1. Key-Value Database </br>
 	Key-Value Database는 데이터가 Key와 Value의 쌍으로 저장된다. Key는 Value에 접근하기 위한 용도로 사용되며, 값은 어떠한 형태의 데이터라도 담을 수 있다. 심지어는 이미지나 비디오도 가능하다. 또한 간단한 API를 제공하는 만큼 질의의 속도가 굉장히 빠른 편이다.
 	대표적인 **NoSQL Key-Value Model로는 Redis(=레디스), Riak(=리아크), Amazon Dynamo DB(=아마존 다이나모디비)** 등이 있다.
