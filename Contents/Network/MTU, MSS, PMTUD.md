@@ -86,7 +86,7 @@ IPv6 프로토콜은 IPv4에 비해 개선된 이동성 지원을 제공합니�
 <details>
 <summary>문제 해설</summary>
 <div markdown="1">
-답: 4번</br>
+답: 1번</br>
 IPv4 유니캐스트,멀티캐스트,브로드캐스트</br>
 IPv6 유니캐스트,멀티캐스트,애니캐스트</br>
 </div>
