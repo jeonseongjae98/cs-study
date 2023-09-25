@@ -40,7 +40,7 @@ IPv6 프로토콜은 IPv4에 비해 개선된 이동성 지원을 제공합니�
 
 
 ## TCP MSS(Maximum Segement Size)
-- L4(세그먼트)에서 전달 받을 수 있는 L5~L7계층(메세지)의 최대 길이
+- L4(세그먼트, 전송계층)에서 전달 받을 수 있는 L5~L7계층(메세지)의 최대 길이
 - TCP 헤더에 따라 사이즈가 달라질 수 있지만 TCP 헤더에 option이 추가 설정되지 않았다면 기본 1460byte</br>
 (TCP 헤더의 option은 최대 40byte까지 추가 될 수 있음)
 - **MSS ( Maximum Segment Size )** 는 TCP 에서 사용할 수 있는 데이터의 크기이자 TCP 헤더, IP 헤더를 뺀 크기를 말한다(예를 들어 터널의 높이 제한)
