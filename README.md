@@ -96,30 +96,30 @@ SSAFY 10기 06반 CS스터디
 | 23/09/22 | [TCP/IP 4계층 #1. 개념, 캡슐화, 비캡슐화, PDU, OSI 7계층](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Network/TCP/IP%204%EA%B3%84%EC%B8%B5%20%231.%20%EA%B0%9C%EB%85%90%2C%20%EC%BA%A1%EC%8A%90%ED%99%94%2C%20%EB%B9%84%EC%BA%A1%EC%8A%90%ED%99%94%2C%20PDU%2C%20OSI%207%EA%B3%84%EC%B8%B5.md)                                 | 마성진 |
 | 23/09/26 | [TCP/IP 4계층 #2. MTU와 MSS와 PMTUD](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Network/MTU%2C%20MSS%2C%20PMTUD.md)                                                               | 전성재 |
 | 23/09/27 | [TCP/IP 4계층 #3. 애플리케이션 계층(application) HTTP, SSH, FTP, SMTP](./Contents/Network/TCP_IP%204계층%20%233.%20애플리케이션%20계층(application)%20HTTP,%20SSH,%20FTP,%20SMTP.md) | 권정훈 |
-| 23/10/04 | [TCP/IP 4계층 #4. 전송 계층(transport) TCP와 UDP](./Contents/Network/TCP_IP%204계층%20%234.%20전송%20계층(transport)%20TCP와%20UDP.md)                                         | 하재률 |
-| 23/10/05 | [TCP/IP 4계층 #5. 인터넷 계층(network)과 ICMP](./Contents/Network/TCP_IP%204계층%20%235.%20인터넷%20계층(network)과%20ICMP.md)                                                   | 김도형 |
-| 23/10/06 | [TCP의 연결성립과정 : 3-웨이 핸드쉐이크](./Contents/Network/TCP의%20연결성립과정%203-웨이%20핸드쉐이크.md)                                                                                   | 문준형 |
-|     | [TCP의 연결해제과정 : 4-웨이 핸드쉐이크와 TIME_WAIT](./Contents/Network/TCP의%20연결해제과정%204-웨이%20핸드쉐이크와%20TIME_WAIT.md)                                                           | 마성진 |
-|     | [라우팅 #1. 개념과 라우터](./Contents/Network/라우팅%20%231.%20개념과%20라우터.md)                                                                                                 | 전성재 |
-|     | [라우팅 #2. 라우팅테이블](./Contents/Network/라우팅%20%232.%20라우팅테이블.md)                                                                                                     |  |
-|     | [IP주소, MAC주소, ARP, RARP](./Contents/Network/IP주소,%20MAC주소,%20ARP,%20RARP.md)                                                                                     |  |
-| 4주차 | [IP주소체계 #1. 이진수 이해하기](./Contents/Network/IP주소체계%20%231.%20이진수%20이해하기.md)                                                                                         |     |
-|     | [IP주소체계 #2. IPv4와 IPv6](./Contents/Network/IP주소체계%20%232.%20IPv4와%20IPv6.md)                                                                                     |  |
-|     | [IP주소체계 #3. 클래스풀(Classful IP Addressing)](./Contents/Network/IP주소체계%20%233.%20클래스풀(Classful%20IP%20Addressing).md)                                               |  |
-| 5주차 | [IP주소체계 #4. 클래스리스와 서브넷마스크, 서브네팅](./Contents/Network/IP주소체계%20%234.%20클래스리스와%20서브넷마스크,%20서브네팅.md)                                                                 |     |
+| 23/10/05 | [TCP/IP 4계층 #4. 전송 계층(transport) TCP와 UDP](./Contents/Network/TCP_IP%204계층%20%234.%20전송%20계층(transport)%20TCP와%20UDP.md)                                         | 하재률 |
+| 23/10/06 | [TCP/IP 4계층 #5. 인터넷 계층(network)과 ICMP](./Contents/Network/TCP_IP%204계층%20%235.%20인터넷%20계층(network)과%20ICMP.md)                                                   | 김도형 |
+| 23/10/10 | [TCP의 연결성립과정 : 3-웨이 핸드쉐이크](./Contents/Network/TCP의%20연결성립과정%203-웨이%20핸드쉐이크.md)                                                                                   | 문준형 |
+| 23/10/11 | [TCP의 연결해제과정 : 4-웨이 핸드쉐이크와 TIME_WAIT](./Contents/Network/TCP의%20연결해제과정%204-웨이%20핸드쉐이크와%20TIME_WAIT.md)                                                           | 마성진 |
+| 23/10/12 | [라우팅 #1. 개념과 라우터](./Contents/Network/라우팅%20%231.%20개념과%20라우터.md)                                                                                                 | 전성재 |
+| 23/10/13 | [라우팅 #2. 라우팅테이블](./Contents/Network/라우팅%20%232.%20라우팅테이블.md)                                                                                                     | 권정훈 |
+| 23/10/17 | [IP주소, MAC주소, ARP, RARP](./Contents/Network/IP주소,%20MAC주소,%20ARP,%20RARP.md)                                                                                     | 하재률 |
+| 23/10/18 | [IP주소체계 #1. 이진수 이해하기](./Contents/Network/IP주소체계%20%231.%20이진수%20이해하기.md)                                                                                         | 김도형 |
+| 23/10/19 | [IP주소체계 #2. IPv4와 IPv6](./Contents/Network/IP주소체계%20%232.%20IPv4와%20IPv6.md)                                                                                     | 문준형 |
+| 23/10/20 | [IP주소체계 #3. 클래스풀(Classful IP Addressing)](./Contents/Network/IP주소체계%20%233.%20클래스풀(Classful%20IP%20Addressing).md)                                               | 마성진 |
+|  | [IP주소체계 #4. 클래스리스와 서브넷마스크, 서브네팅](./Contents/Network/IP주소체계%20%234.%20클래스리스와%20서브넷마스크,%20서브네팅.md)                                                                 | 전성재 |
 |     | [IP주소체계 #5. 공인IP(public IP)와 사설IP(private IP)와 NAT](./Contents/Network/IP주소체계%20%235.%20공인IP(public%20IP)와%20사설IP(private%20IP)와%20NAT.md)                       |     |
 |     | [DEEP DIVE : www<hi>.naver.com을 주소창에 입력했을 때 화면이 나타나기까지의 과정](./Contents/Network/DEEP%20DIVE%20-%20www.naver.com을%20주소창에%20입력했을%20때%20화면이%20나타나기까지의%20과정.md)       |     |
 |     | [DEEP DIVE : HTTP/1.x HTTP2의 차이 그리고 HTTP3](./Contents/Network/DEEP%20DIVE%20-%20HTTP1.x%20HTTP2의%20차이%20그리고%20HTTP3.md)                                          |     |
 |     | [DEEP DIVE : HTTPS와 TLS #1. 암호화](./Contents/Network/DEEP%20DIVE%20-%20HTTPS와%20TLS%20%231.%20암호화.md)                                                             |     |
 |     | [DEEP DIVE : HTTPS와 TLS #2. TLS 핸드쉐이크](./Contents/Network/DEEP%20DIVE%20-%20HTTPS와%20TLS%20%232.%20TLS%20핸드쉐이크.md)                                               |     |
-| 6주차 | [브라우저 렌더링과정](./Contents/Network/브라우저%20렌더링과정.md)                                                                                                                 |  |
+|  | [브라우저 렌더링과정](./Contents/Network/브라우저%20렌더링과정.md)                                                                                                                 |  |
 |     | [웹브라우저의 캐시 #1. 로컬스토리지와 세션스토리지](./Contents/Network/웹브라우저의%20캐시%20%231.%20로컬스토리지와%20세션스토리지.md)                                                                     |  |
 |     | [웹브라우저의 캐시 #2. 제대로 배우는 쿠키](./Contents/Network/웹브라우저의%20캐시%20%232%20제대로%20배우는%20쿠키.md)                                                                            |  |
 |     | [웹브라우저의 캐시 #3. 로컬스토리지, 세션스토리지, 쿠키의 차이](./Contents/Network/웹브라우저의%20캐시%20%233.%20로컬스토리지,%20세션스토리지,%20쿠키의%20차이.md)                                                 |     |
 |     | [로그인방식: 쿠키와 세션 그리고 토큰방식(JWT)](./Contents/Network/로그인방식%20쿠키와%20세션%20그리고%20토큰방식(JWT).md)                                                                          |  |
 |     | [HTTP의 상태코드와 메서드(GET, POST, PUT, PATCH, DELETE)](./Contents/Network/HTTP%20상태코드와%20메서드(GET,%20POST,%20PATCH,%20DELETE).md)                                       |  |
 |     | [REST API](./Contents/Network/REST%20API.md)                                                                                                                     |  |
-| 7주차 | [네트워크를 이루는 장치의 이해](./Contents/Network/네트워크를%20이루는%20장치의%20이해.md)                                                                                                 |     |
+|  | [네트워크를 이루는 장치의 이해](./Contents/Network/네트워크를%20이루는%20장치의%20이해.md)                                                                                                 |     |
 |     | [네트워크를 이루는 장치 #1 애플리케이션 계층](./Contents/Network/네트워크를%20이루는%20장치%20%231%20애플리케이션%20계층.md)                                                                         |  |
 |     | [네트워크를 이루는 장치 #2 전송 계층](./Contents/Network/네트워크를%20이루는%20장치%20%232%20전송%20계층.md)                                                                                 |  |
 |     | [네트워크를 이루는 장치 #3 인터넷 계층](./Contents/Network/네트워크를%20이루는%20장치%20%233%20인터넷%20계층.md)                                                                               |  |
