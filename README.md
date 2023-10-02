@@ -93,7 +93,7 @@ SSAFY 10기 06반 CS스터디
 
 | 주차  | 제목                                                                                                                                                               | 발표자 |
 |-----|------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| 23/09/22 | [TCP/IP 4계층 #1. 개념, 캡슐화, 비캡슐화, PDU, OSI 7계층](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Network/TCP/IP%204%EA%B3%84%EC%B8%B5%20%231.%20%EA%B0%9C%EB%85%90%2C%20%EC%BA%A1%EC%8A%90%ED%99%94%2C%20%EB%B9%84%EC%BA%A1%EC%8A%90%ED%99%94%2C%20PDU%2C%20OSI%207%EA%B3%84%EC%B8%B5.md)                                 | 마성진 |
+| 23/09/22 | [TCP/IP 4계층 #1. 개념, 캡슐화, 비캡슐화, PDU, OSI 7계층](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Network/TCP_IP%204%EA%B3%84%EC%B8%B5%20%231.%20%EA%B0%9C%EB%85%90%2C%20%EC%BA%A1%EC%8A%90%ED%99%94%2C%20%EB%B9%84%EC%BA%A1%EC%8A%90%ED%99%94%2C%20PDU%2C%20OSI%207%EA%B3%84%EC%B8%B5.md)                                 | 마성진 |
 | 23/09/26 | [TCP/IP 4계층 #2. MTU와 MSS와 PMTUD](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Network/MTU%2C%20MSS%2C%20PMTUD.md)                                                               | 전성재 |
 | 23/09/27 | [TCP/IP 4계층 #3. 애플리케이션 계층(application) HTTP, SSH, FTP, SMTP](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Network/%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%20%EA%B3%84%EC%B8%B5.md) | 권정훈 |
 | 23/10/05 | [TCP/IP 4계층 #4. 전송 계층(transport) TCP와 UDP](./Contents/Network/TCP_IP%204계층%20%234.%20전송%20계층(transport)%20TCP와%20UDP.md)                                         | 하재률 |
