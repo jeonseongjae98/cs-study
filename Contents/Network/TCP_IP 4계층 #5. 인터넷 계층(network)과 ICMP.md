@@ -12,7 +12,7 @@
 
 ⇒ 여러 개의 네트워크를 연결, 분할, 구분시켜주는 역할을 하며 “다른 네트워크에 존재하는 장치끼리 서로 데이터를 주고받을 때 **패킷 소모를 최소화**하고 **경로를 최적화**하여 최소 경로로 패킷을 포워딩”하는 라우팅을 하는 장비
 
-/////////////라우터 이미지
+[![1.png](https://i.postimg.cc/gcyVcmgV/1.png)](https://postimg.cc/9zMRJ550)
 
 
 # ICMP(Internet Control Message Protocol)
@@ -27,7 +27,7 @@
 
 # ICMP 메시지의 구조
 
-///////////////ICMP 구조 이미지
+[![2-ICMP.png](https://i.postimg.cc/JnLsSBV9/2-ICMP.png)](https://postimg.cc/06V5wjNf)
 
 8바이트의 헤더와 데이터 부분으로 구성됨.
 
@@ -44,7 +44,7 @@ Data 필드 : 오류보고 및 질의에 따라 다름
 
 # ICMP 메시지 종류
 
-//종류 이미지
+[![3-ICMP.png](https://i.postimg.cc/0QPNVR7v/3-ICMP.png)](https://postimg.cc/5HK1trPK)
 
 ## 오류보고 메시지
 
@@ -54,7 +54,7 @@ Data 필드 : 오류보고 및 질의에 따라 다름
 - 코드 필드엔 데이터그램을 전달 할 수 없었던 이유를 명시한다.
 - ex) 0: 하드웨어 고장, 2: 상위 프로토콜 도달 불가, 4: 단편화 불가 (Don't fragment)
 
-////////////목적지 도착불가능  이미지
+[![4.png](https://i.postimg.cc/3JdxSZ0k/4.png)](https://postimg.cc/kBPCDKcC)
 
 **출발지 억제(Source Quench) 메시지 ( 4 )**
 
@@ -67,7 +67,7 @@ Data 필드 : 오류보고 및 질의에 따라 다름
 TTL (Time To Leave : 이 IP 데이터그램이 인터넷 상에서 얼마동안 survive 할 수 있는지를 표시함. 라우터를 몇개까지 거쳐갈 수 있는지로 표시함. 라우터를 하나 거쳐갈 때마다 1씩 감소..)
 - 재조립 타이머가 종료될 때까지 단편화된 데이터그램들이 모두 도착하지 않으면 목적지 호스트는 해당 데이터그램을 전송한 출발지 호스트에게 시간 초과 메시지 전 ( Code = 1 )
 
-///////////시간초과 TTL 이미지
+[![5.png](https://i.postimg.cc/zf1DfZth/5.png)](https://postimg.cc/jDZY89rq)
 
 **방향 재지정(Redirect) 메시지 ( 5 )**
 
@@ -87,7 +87,7 @@ TTL (Time To Leave : 이 IP 데이터그램이 인터넷 상에서 얼마동안 
 
 **에코 요청 또는 응답(Echo Request or Reply) 메시지** : **핑(ping)** 프로그램
 
-/////////////////에코요청 이미지
+[![6.png](https://i.postimg.cc/x8NBHqq1/6.png)](https://postimg.cc/5Q1PW4wh)
 
 - 식별자(Identifier) : 일반적으로 송신자의 프로세스 식별자를 표시
 - 순서 번호(Sequence Number) : 에코 요청 메시지의 순서번호
@@ -108,7 +108,7 @@ TTL (Time To Leave : 이 IP 데이터그램이 인터넷 상에서 얼마동안 
 
 - 두 시스템의 시계 동기화
 
-///////////타임스탬프 이미지
+[![7.png](https://i.postimg.cc/85xNx26s/7.png)](https://postimg.cc/BL5rKwNG)
 
 **라우터 찾기 또는 광고(Router Solicitation or Advertisement)**
 
@@ -116,7 +116,7 @@ TTL (Time To Leave : 이 IP 데이터그램이 인터넷 상에서 얼마동안 
 - 라우터 요청 메시지를 받은 라우터는 라우터 광고 메시지를 사용하여 자신의 주소(또는 자신이 알고 있는 라우터 주소) 정보를 전송
 - 라우터는 주기적으로 광고 메시지 전송 가능
 
-/////////라우터찾기 이미지
+[![8.png](https://i.postimg.cc/L6KmDMSb/8.png)](https://postimg.cc/mhjxZJtY)
 
 ### 기출문제 풀이
 ---
