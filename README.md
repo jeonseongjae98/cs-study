@@ -102,7 +102,7 @@ SSAFY 10기 06반 CS스터디
 | 23/10/11 | [TCP의 연결해제과정 : 4-웨이 핸드쉐이크와 TIME_WAIT](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Network/TCP%EC%9D%98%20%EC%97%B0%EA%B2%B0%ED%95%B4%EC%A0%9C%EA%B3%BC%EC%A0%95%20%3A%204-%EC%9B%A8%EC%9D%B4%20%ED%95%B8%EB%93%9C%EC%89%90%EC%9D%B4%ED%81%AC%EC%99%80%20TIME_WAIT.md)                                                           | 마성진 |
 | 23/10/12 | [라우팅 #1. 개념과 라우터](./Contents/Network/라우팅%20%231.%20개념과%20라우터.md)                                                                                                 | 전성재 |
 | 23/10/13 | [라우팅 #2. 라우팅테이블](./Contents/Network/라우팅%20%232.%20라우팅테이블.md)                                                                                                     | 권정훈 |
-| 23/10/17 | [IP주소, MAC주소, ARP, RARP](./Contents/Network/IP주소,%20MAC주소,%20ARP,%20RARP.md)                                                                                     | 하재률 |
+| 23/10/17 | [IP주소, MAC주소, ARP, RARP](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Network/IP%EC%A3%BC%EC%86%8C%2C%20MAC%EC%A3%BC%EC%86%8C%2C%20ARP%2C%20RARP.md)                                                                                     | 하재률 |
 | 23/10/18 | [IP주소체계 #1. 이진수 이해하기](./Contents/Network/IP주소체계%20%231.%20이진수%20이해하기.md)                                                                                         | 김도형 |
 | 23/10/19 | [IP주소체계 #2. IPv4와 IPv6](./Contents/Network/IP주소체계%20%232.%20IPv4와%20IPv6.md)                                                                                     | 문준형 |
 | 23/10/20 | [IP주소체계 #3. 클래스풀(Classful IP Addressing)](./Contents/Network/IP주소체계%20%233.%20클래스풀(Classful%20IP%20Addressing).md)                                               | 마성진 |
