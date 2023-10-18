@@ -53,7 +53,8 @@ IPv6주소의 경우 일반적으로 16비트 단위로 나누어지며 각 16�
 
 ### IPv6주소의 표현 방법
 ![image](https://github.com/NoRuTnT/practice/assets/114069644/55c38ee3-7a80-4a17-998f-c5dfeb1d3ffb)
-
+IPv4 : 유니캐스트, 멀티캐스트, 브로드캐스트   
+IPv6 :  유니캐스트, 멀티캐스트, 애니캐스트  
 ### IPv6 주소할당방식
 ![image](https://github.com/NoRuTnT/practice/assets/114069644/64fd9161-e23d-4355-8df3-4f0c0752b876)  
 IPv6주소는 다음과 같이 세가지 주소 체계로 나누어진다.
@@ -64,10 +65,69 @@ IPv6주소는 다음과 같이 세가지 주소 체계로 나누어진다.
 ## 비교
 ![image](https://github.com/NoRuTnT/practice/assets/114069644/4b89b959-2acb-401b-9efa-3cdc7cdd81d8)
 ## 패킷비교  
-일반적으로 IPv4 데이터그램은 20바이트의 헤더 필드, 옵션 필드 및 가변 길이의 데이터 필드로 구성됩니다. 샘플 패킷 형식은 다음과 같습니다.  
-![image](https://github.com/NoRuTnT/practice/assets/114069644/cce6aac4-5760-4cba-b38d-97915fcce4f2)    
-IPv6 주소는 32개의 16진수를 사용하는 128비트(16바이트)이며, 이러한 숫자는 관리가 용이하도록 각각 4자리씩 8개의 그룹으로 더 분할됩니다.  
-![image](https://github.com/NoRuTnT/practice/assets/114069644/588fc11f-2956-4346-862c-ad1143b14dd7)  
+일반적으로 IPv4 데이터그램은 20바이트의 헤더 필드, 옵션 필드 및 가변 길이의 데이터 필드로 구성됩니다. 샘플 패킷 형식은 다음과 같습니다.    
+![image](https://github.com/NoRuTnT/practice/assets/114069644/6316e8ff-d51c-4938-83d0-601ab4608006)  
+![image](https://github.com/NoRuTnT/practice/assets/114069644/c1bc0c89-31e0-4378-98e9-9d56e66fb706)  
+
+IPv6 주소는 32개의 16진수를 사용하는 128비트(16바이트)이며, 이러한 숫자는 관리가 용이하도록 각각 4자리씩 8개의 그룹으로 더 분할됩니다.    
+![image](https://github.com/NoRuTnT/practice/assets/114069644/588fc11f-2956-4346-862c-ad1143b14dd7)    
+![image](https://github.com/NoRuTnT/practice/assets/114069644/094f1d0b-3685-4ddf-91c8-010810d41b31)  
+![image](https://github.com/NoRuTnT/practice/assets/114069644/ac94c1bf-7f67-4153-83dd-f79119da3571)  
 
 ## IPv4에서 IPv6로 변환  
 ![image](https://github.com/NoRuTnT/practice/assets/114069644/e3b35b67-13bf-4004-8c95-8bfbfe57a8e1)  
+
+
+### 듀얼스택 
+이 방법은 상대방이 IPv4 , IPv6중에 어떤 것을 쓰고 있을지 알 수 없기 때문에 두 가지 모두를 지원하는 방식이다.  
+가장 안정적인 방법이다. 통신할 때 거쳐가는 모든 통신장비에 동일한 설정을 해주면 IPv4, IPv6를 가리지 않고 통신할 수 있다. 
+기존 OSI 7 Layer에 보면 3 계층에 Network Layer가 존재하는데 이 부분에서 IPv4 , IPv6 모두 지원한다.  
+![image](https://github.com/NoRuTnT/practice/assets/114069644/a34f1368-58f8-4da5-93ea-46ba0a10be61)  
+
+### 터널링  
+무엇을 터널링 하는 것인가 하면, IPv6 네트워크 간에 통신을 하려고 하는데 통신하려는 통로에 IPv4 네트워크가 존재한다면 
+이대로 통신을 멈춰야 하는가? 아니다. 이럴 때 터널링을 하는 것이다.  
+기존의 IPv6에서 다른 IPv6로 지나가는 가상의 통로를 만들고 통로를 지나가기 위해 패킷을 IPv4로 캡슐화하여 전송한다.  
+그리고 통로를 통과한 캡슐화된 패킷은 다시 디캡슐화되어 IPv6 패킷으로 정상 통신을 하는 것이다.  
+![image](https://github.com/NoRuTnT/practice/assets/114069644/51c13c62-c686-4e4f-9ec7-f3c54fa43936)  
+
+### 주소 및 헤더 변환 방식  
+IPv4 주소를 IPv6 주소로 변환 또는 그 반대로 변환하여 통신하는 방식이다.  
+![image](https://github.com/NoRuTnT/practice/assets/114069644/d350eb3c-2fc3-4d2c-8123-1a1965f39455)  
+
+
+## 문제  
+IP 주소체계와 관련한 설명으로 틀린 것은?(2022 정보처리기사1회)  
+1.IPv6의 패킷 헤더는 32 octet의 고정된 길이를 가진다.  
+2. IPv6는 주소 자동설정(Auto Configuration) 기능을 통해 손쉽게 이용자의 단말을 네트워크에 접속시킬 수 있다.  
+3. IPv4는 호스트 주소를 자동으로 설정하며 유니캐스트(Unicast)를 지원한다.   
+4. IPv4는 클래스별로 네트워크와 호스트 주소의 길이가 다르다.   
+
+IETF에서 고안한 IPv4에서 IPv6로 전환하는데 사용되는 전략이 아닌 것은?   
+1. Dual stack   
+2. Tunneling   
+3. Header translation   
+4. Source routing   
+
+IPv4와 IPv6를 비교 설명한 것 중 올바른 것은?    
+
+1. IPv4는 자체적으로 IPsec과 같은 보안 프로토콜을 내장하고 있지만, IPv6는 보안 프로토콜의 추가가 필요하다.  
+2. IPv4는 필드 구분을 위해 '.'을 사용하고, IPv6는 ';'으로 구분한다.  
+3. IPv4의 각 필드는 10진수로 표시되나, IPv6의 각 필드는 16진수로 표시된다.  
+4. IPv4는 4개의 16bit 정수로 나누어지나, IPv6는 8개의 32bit 정수로 구분된다.  
+
+IPv6에 대한 설명으로 옳지 않은 것은?    
+
+1.IPv6는 128bit의 길이로 되어 있다.  
+2.브로드 캐스트를 이용하여 IPv4와 상호운용이 가능하다.  
+3.IPv6는 유니, 애니, 멀티 캐스트로 나눈다.  
+4.IP Next Generation, 즉 차세대 IP라고도 불리고 있다.  
+
+IPv6 헤더 형식에서 네트워크 내에서 데이터그램의 생존기간과 관련되는 필드는?  
+1. Version  
+2. Priority  
+3. Next Header  
+4. Hop Limit  
+
+
+답:1,4,3,2,4
