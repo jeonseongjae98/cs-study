@@ -129,5 +129,12 @@ IPv6 헤더 형식에서 네트워크 내에서 데이터그램의 생존기간�
 3. Next Header  
 4. Hop Limit  
 
+<details>
+<summary>정답</summary>
+<div>
 
 답:1,4,3,2,4
+
+</div>
+</details>
+
