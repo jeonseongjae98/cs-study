@@ -114,22 +114,18 @@ SSAFY 10기 06반 CS스터디
 | 23/11/01 | [DEEP DIVE : HTTPS와 TLS #1. 암호화](./Contents/Network/DEEP%20DIVE%20-%20HTTPS와%20TLS%20%231.%20암호화.md)                                                             | 마성진 |
 | 23/11/02 | [DEEP DIVE : HTTPS와 TLS #2. TLS 핸드쉐이크](./Contents/Network/DEEP%20DIVE%20-%20HTTPS와%20TLS%20%232.%20TLS%20핸드쉐이크.md)                                               | 전성재 |
 | 23/11/03 | [웹브라우저의 캐시 #1. 로컬스토리지와 세션스토리지](./Contents/Network/웹브라우저의%20캐시%20%231.%20로컬스토리지와%20세션스토리지.md)                                                                     | 권정훈 |
-|     | [웹브라우저의 캐시 #2. 제대로 배우는 쿠키](./Contents/Network/웹브라우저의%20캐시%20%232%20제대로%20배우는%20쿠키.md)                                                                            |  |
-|     | [웹브라우저의 캐시 #3. 로컬스토리지, 세션스토리지, 쿠키의 차이](./Contents/Network/웹브라우저의%20캐시%20%233.%20로컬스토리지,%20세션스토리지,%20쿠키의%20차이.md)                                                 |     |
-|     | [로그인방식: 쿠키와 세션 그리고 토큰방식(JWT)](./Contents/Network/로그인방식%20쿠키와%20세션%20그리고%20토큰방식(JWT).md)                                                                          |  |
-|     | [HTTP의 상태코드와 메서드(GET, POST, PUT, PATCH, DELETE)](./Contents/Network/HTTP%20상태코드와%20메서드(GET,%20POST,%20PATCH,%20DELETE).md)                                       |  |
-|     | [REST API](./Contents/Network/REST%20API.md)                                                                                                                     |  |
-|  | [네트워크를 이루는 장치의 이해](./Contents/Network/네트워크를%20이루는%20장치의%20이해.md)                                                                                                 |     |
-|     | [네트워크를 이루는 장치 #1 애플리케이션 계층](./Contents/Network/네트워크를%20이루는%20장치%20%231%20애플리케이션%20계층.md)                                                                         |  |
-|     | [네트워크를 이루는 장치 #2 전송 계층](./Contents/Network/네트워크를%20이루는%20장치%20%232%20전송%20계층.md)                                                                                 |  |
-|     | [네트워크를 이루는 장치 #3 인터넷 계층](./Contents/Network/네트워크를%20이루는%20장치%20%233%20인터넷%20계층.md)                                                                               |  |
-|     | [네트워크를 이루는 장치 #4 데이터링크계층](./Contents/Network/네트워크를%20이루는%20장치%20%234%20데이터링크계층.md)                                                                               |  |
-|     | [네트워크를 이루는 장치 #5 물리계층](./Contents/Network/네트워크를%20이루는%20장치%20%235%20물리계층.md)                                                                                     |  |
-|     | [유선LAN의 기술 : 전이중화 통신, CSMA/CD](./Contents/Network/유선LAN의%20기술%20-%20전이중화%20통신,%20CSMACD.md)                                                                      |  |
-|     | [무선LAN을 이루는 기술 : 반이중화 통신, CSMA/CA, 와이파이, BSS, ESS](./Contents/Network/무선LAN을%20이루는%20기술%20%20반이중화%20통신,%20CSMACA,%20와이파이,%20BSS,%20ESS.md)                       |  |
-|     | [DEEP DIVE : 대규모 트래픽으로 인한 서버 과부화 해결방법 #1](./Contents/Network/DEEP%20DIVE%20-%20대규모%20트래픽으로%20인한%20서버%20과부화%20해결방법%20%231.md)                                     |  |
-|     | [DEEP DIVE : 대규모 트래픽으로 인한 서버 과부화 해결방법 #2](./Contents/Network/대규모%20트래픽으로%20인한%20서버%20과부화%20해결%20방법%232.md)                                                       |  |
-|     | [트랜잭션의 격리수준(SERIALIZABLE, REPEATABLE_READ 등)](./Contents/Database/트랜잭션의%20격리수준(SERIALIZABLE,%20REPEATABLE_READ%20등).md)    |  |
+| 23/11/07 | [웹브라우저의 캐시 #2. 제대로 배우는 쿠키](./Contents/Network/웹브라우저의%20캐시%20%232%20제대로%20배우는%20쿠키.md)                                                                            | 하재률 |
+| 23/11/08 | [웹브라우저의 캐시 #3. 로컬스토리지, 세션스토리지, 쿠키의 차이](./Contents/Network/웹브라우저의%20캐시%20%233.%20로컬스토리지,%20세션스토리지,%20쿠키의%20차이.md)                                                 | 김도형 |
+| 23/11/09 | [로그인방식: 쿠키와 세션 그리고 토큰방식(JWT)](./Contents/Network/로그인방식%20쿠키와%20세션%20그리고%20토큰방식(JWT).md)                                                                          | 문준형 |
+| 23/11/10 | [HTTP의 상태코드와 메서드(GET, POST, PUT, PATCH, DELETE)](./Contents/Network/HTTP%20상태코드와%20메서드(GET,%20POST,%20PATCH,%20DELETE).md)                                       | 마성진 |
+| 23/11/14 | [REST API](./Contents/Network/REST%20API.md)                                                                                                                     | 전성재 |
+| 23/11/15 | [네트워크를 이루는 장치 #1 애플리케이션 계층, #2 전송 계층](./Contents/Network/네트워크를%20이루는%20장치%20%231%20애플리케이션%20계층.md)                                                                         |  |
+| 23/11/16 | [네트워크를 이루는 장치 #3 인터넷 계층, #4 데이터링크계층, #5 물리계층](./Contents/Network/네트워크를%20이루는%20장치%20%232%20전송%20계층.md)                                                                                 |  |
+| 23/11/17 | [유선LAN의 기술 : 전이중화 통신, CSMA/CD](./Contents/Network/유선LAN의%20기술%20-%20전이중화%20통신,%20CSMACD.md)                                                                      |  |
+| 23/11/24 | [무선LAN을 이루는 기술 : 반이중화 통신, CSMA/CA, 와이파이, BSS, ESS](./Contents/Network/무선LAN을%20이루는%20기술%20%20반이중화%20통신,%20CSMACA,%20와이파이,%20BSS,%20ESS.md)                       |  |
+| 23/11/25 | [DEEP DIVE : 대규모 트래픽으로 인한 서버 과부화 해결방법 #1](./Contents/Network/DEEP%20DIVE%20-%20대규모%20트래픽으로%20인한%20서버%20과부화%20해결방법%20%231.md)                                     |  |
+| 23/11/26 | [DEEP DIVE : 대규모 트래픽으로 인한 서버 과부화 해결방법 #2](./Contents/Network/대규모%20트래픽으로%20인한%20서버%20과부화%20해결%20방법%232.md)                                                       |  |
+| 23/11/27 | [트랜잭션의 격리수준(SERIALIZABLE, REPEATABLE_READ 등)](./Contents/Database/트랜잭션의%20격리수준(SERIALIZABLE,%20REPEATABLE_READ%20등).md)    |  |
 |     | [DEEP DIVE : clustered index와 non-clustered index와의 차이](./Contents/Database/clustered%20index와%20non-clustered%20index와의%20차이.md)                                     |  |
 |     | [DEEP DIVE : 데이터베이스의 데드락과 해결방법](./Contents/Database/DEEP%20DIVE%20-%20데이터베이스의%20데드락과%20해결방법.md)                                                                       |  |
 
