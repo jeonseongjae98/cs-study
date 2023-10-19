@@ -105,7 +105,7 @@ SSAFY 10기 06반 CS스터디
 | 23/10/17 | [IP주소, MAC주소, ARP, RARP](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Network/IP%EC%A3%BC%EC%86%8C%2C%20MAC%EC%A3%BC%EC%86%8C%2C%20ARP%2C%20RARP.md)                                                                                     | 하재률 |
 | 23/10/18 | [IP주소체계 #1. 이진수 이해하기](./Contents/Network/IP주소체계%20%231.%20이진수%20이해하기.md)                                                                                         | 김도형 |
 | 23/10/19 | [IP주소체계 #2. IPv4와 IPv6](./Contents/Network/IP주소체계%20%232.%20IPv4와%20IPv6.md)                                                                                     | 문준형 |
-| 23/10/20 | [IP주소체계 #3. 클래스풀(Classful IP Addressing)](./Contents/Network/IP주소체계%20%233.%20클래스풀(Classful%20IP%20Addressing).md)                                               | 마성진 |
+| 23/10/20 | [IP주소체계 #3. 클래스풀(Classful IP Addressing)](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Network/IP%EC%A3%BC%EC%86%8C%EC%B2%B4%EA%B3%84%20%233.%20%ED%81%B4%EB%9E%98%EC%8A%A4%ED%92%80(Classful%20IP%20Addressing).md)                                               | 마성진 |
 |  | [IP주소체계 #4. 클래스리스와 서브넷마스크, 서브네팅](./Contents/Network/IP주소체계%20%234.%20클래스리스와%20서브넷마스크,%20서브네팅.md)                                                                 | 전성재 |
 |     | [IP주소체계 #5. 공인IP(public IP)와 사설IP(private IP)와 NAT](./Contents/Network/IP주소체계%20%235.%20공인IP(public%20IP)와%20사설IP(private%20IP)와%20NAT.md)                       |     |
 |     | [DEEP DIVE : www<hi>.naver.com을 주소창에 입력했을 때 화면이 나타나기까지의 과정](./Contents/Network/DEEP%20DIVE%20-%20www.naver.com을%20주소창에%20입력했을%20때%20화면이%20나타나기까지의%20과정.md)       |     |
