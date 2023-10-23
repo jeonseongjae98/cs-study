@@ -204,7 +204,7 @@ FLSM (Fixed Length Subnet Mask) : 고정된 크기의 Subnet-Mask를 사용하�
 문제에서 요구한 것은 10번째 네트워크의 broadcast주소이다. broadcast 주소란 해당 IP 주소 범위에서 가장 마지막 주소를 의미하므로, 200.1.1.159가 정답이다.
 
 * ip subnet-zero
-: Subnet 부분이 모두 0인 200.1.1.0 과 200.1.1.255를 사용(IP 부족 해결하기 위함)
+: Subnet 부분이 모두 0인 200.1.1.0 과 200.1.1.255를 사용(IP 부족 해결하기 위함), 단 모두 0이거나 모두 1으니 제외!
 </div>
 </details>
 
