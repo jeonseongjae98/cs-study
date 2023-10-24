@@ -20,7 +20,7 @@ SSAFY 10기 06반 CS스터디
 - Technical Interview Guidelines for Beginners [🔗Link](https://github.com/JaeYeopHan/Interview_Question_for_Beginner)
 - 📢🙍 tech interview [🔗Link](https://github.com/WeareSoft/tech-interview)
 - <img height="20" src="https://user-images.githubusercontent.com/47595515/198836603-4a8efbb1-3a55-4130-b211-a039cb9cfd8d.png" width="20"/>CS지식의 정석 [🔗Link](https://inf.run/VE5F)
-- [Pull Request에 대한 설명](https://sadoruin-notes.notion.site/Pull-Request-3e8c9a7c98bc41819729e3b306ca9987)
+- ✨Pull Request란? [🔗Link](https://sadoruin-notes.notion.site/Pull-Request-3e8c9a7c98bc41819729e3b306ca9987)
 
 ## 🔎스터디 참고자료
 - https://github.com/devham76/tech-interview-study
