@@ -44,7 +44,7 @@
 
 하지만 각기 다른 공인IP로 구성된 네트워크 안에서 내부적으로만 사용되는 IP이기 때문에 중복 되어도 상관이 없다.
 
-![사설IP](https://github.com/hajaeryul/HJR_Board/assets/113097210/de6a9c41-da4b-4f36-8d2b-1d8f1e469fcb)
+![사설IP](https://github.com/hajaeryul/study-20221010-jaeryul/assets/113097210/c67fc065-eff8-4be5-add8-7d798f1bc979)
 
 ## NAT (Network Address Translation)
 
@@ -85,7 +85,7 @@
 - 일반적으로 NAT라 하면 NAPT를 말한다. (실무에서는 PAT 라는 용어로 더 많이 사용)
 - N : 1 translation
 
-![NAPT](https://github.com/hajaeryul/HJR_Board/assets/113097210/230f1ef9-a7e0-4bb0-9a57-c6fb02f380f1)
+![PAT](https://github.com/hajaeryul/study-20221010-jaeryul/assets/113097210/e3465ccd-248f-4a60-8231-dd07d1b23a54)
 
 - 호스트들은 고정 포트로 구분된 상태가 아니기 때문에 내부 → 외부 통신은 가능하지만 외부 → 내부 통신은 불가능하다.
   
