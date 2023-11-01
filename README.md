@@ -112,7 +112,7 @@ SSAFY 10기 06반 CS스터디
 | 23/10/27 | [DEEP DIVE : www<hi>.naver.com을 주소창에 입력했을 때 화면이 나타나기까지의 과정과 브라우저 렌더링과정](./Contents/Network/DEEP%20DIVE%20-%20www.naver.com을%20주소창에%20입력했을%20때%20화면이%20나타나기까지의%20과정.md)       | 김도형 |
 | 23/11/01 | [DEEP DIVE : HTTP/1.x HTTP2의 차이 그리고 HTTP3](./Contents/Network/DEEP%20DIVE%20-%20HTTP1.x%20HTTP2의%20차이%20그리고%20HTTP3.md)                                          | 문준형 |
 | 23/11/02 | [DEEP DIVE : HTTPS와 TLS #1. 암호화](./Contents/Network/DEEP%20DIVE%20-%20HTTPS와%20TLS%20%231.%20암호화.md)                                                             | 마성진 |
-| 23/11/03 | [DEEP DIVE : HTTPS와 TLS #2. TLS 핸드쉐이크](./Contents/Network/DEEP%20DIVE%20-%20HTTPS와%20TLS%20%232.%20TLS%20핸드쉐이크.md)                                               | 전성재 |
+| 23/11/03 | [DEEP DIVE : HTTPS와 TLS #2. TLS 핸드쉐이크](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Network/DEEP%20DIVE%20:%20HTTPS%EC%99%80%20TLS%20%232.%20TLS%20%ED%95%B8%EB%93%9C%EC%89%90%EC%9D%B4%ED%81%AC.md)                                               | 전성재 |
 | 23/11/07 | [웹브라우저의 캐시 #1. 로컬스토리지와 세션스토리지](./Contents/Network/웹브라우저의%20캐시%20%231.%20로컬스토리지와%20세션스토리지.md)                                                                     | 권정훈 |
 | 23/11/08 | [웹브라우저의 캐시 #2. 제대로 배우는 쿠키](./Contents/Network/웹브라우저의%20캐시%20%232%20제대로%20배우는%20쿠키.md)                                                                            | 하재률 |
 | 23/11/09 | [웹브라우저의 캐시 #3. 로컬스토리지, 세션스토리지, 쿠키의 차이](./Contents/Network/웹브라우저의%20캐시%20%233.%20로컬스토리지,%20세션스토리지,%20쿠키의%20차이.md)                                                 | 김도형 |
