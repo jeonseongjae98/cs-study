@@ -1,10 +1,3 @@
-https://sunrise-min.tistory.com/entry/TLS-Handshake%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%A7%84%ED%96%89%EB%90%98%EB%8A%94%EA%B0%80
-
-
-https://github.com/SSAFY-SEOUL-19-ALGO/cs-study/blob/main/Contents/Network/DEEP%20DIVE%20-%20HTTPS%EC%99%80%20TLS%20%232.%20TLS%20%ED%95%B8%EB%93%9C%EC%89%90%EC%9D%B4%ED%81%AC.md
-
-
-
 ## TLS(Transport Layer Security)란?
 - 인터넷 상의 커뮤니케이션에서 개인 정보와 데이터 보안을 위해 설계되어 널리 채택된 보안 프로토콜이다.
 - 주요 사용 사례는 웹 브라우저(웹 응용 프로그램)와 서버 간의 통신 데이터를 암호화하는 것이다. 그 외에도 이메일, 메시지, 보이스오버 IP(VoIP)등 여러 통신 데이터를 암호화한다.
