@@ -60,10 +60,10 @@
 
 ## 2. Server Hello, Server Certificate, Server Hello Done
 - Server : Server Hello
-클라이언트가 보낸 Client Hello에 대한 서버의 응답이다. TLS Version, 암호화 방식(Client가 보낸 암호화 방식 중에 서버가 사용 가능한 암호화 방식을 선택), Server Random Data(서버에서 생성한 난수, 대칭키를 만들 때 사용), SessionID(유효한 Session ID)
+- 클라이언트가 보낸 Client Hello에 대한 서버의 응답이다. TLS Version, 암호화 방식(Client가 보낸 암호화 방식 중에 서버가 사용 가능한 암호화 방식을 선택), Server Random Data(서버에서 생성한 난수, 대칭키를 만들 때 사용), SessionID(유효한 Session ID)
 
 - Server : Server Certificate
-서버의 인증서를 클라이언트에게 보내는 단계로 필요에 따라 CA의 Certificate도 함께 전송한다.
+- 서버의 인증서를 클라이언트에게 보내는 단계로 필요에 따라 CA의 Certificate도 함께 전송한다.
     - 클라이언트는 이 패킷을 통해 서버의 인증서가 무결한지 검증한다.
 
  - Server :  Server Hello Done
