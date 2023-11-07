@@ -114,7 +114,7 @@ SSAFY 10기 06반 CS스터디
 | 23/11/02 | [DEEP DIVE : HTTPS와 TLS #1. 암호화](./Contents/Network/DEEP%20DIVE%20-%20HTTPS와%20TLS%20%231.%20암호화.md)                                                             | 마성진 |
 | 23/11/03 | [DEEP DIVE : HTTPS와 TLS #2. TLS 핸드쉐이크](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Network/DEEP%20DIVE%20:%20HTTPS%EC%99%80%20TLS%20%232.%20TLS%20%ED%95%B8%EB%93%9C%EC%89%90%EC%9D%B4%ED%81%AC.md)                                               | 전성재 |
 | 23/11/07 | [웹브라우저의 캐시 #1. 로컬스토리지와 세션스토리지](./Contents/Network/웹브라우저의%20캐시%20%231.%20로컬스토리지와%20세션스토리지.md)                                                                     | 권정훈 |
-| 23/11/08 | [웹브라우저의 캐시 #2. 제대로 배우는 쿠키](./Contents/Network/웹브라우저의%20캐시%20%232%20제대로%20배우는%20쿠키.md)                                                                            | 하재률 |
+| 23/11/08 | [웹브라우저의 캐시 #2. 제대로 배우는 쿠키](https://github.com/jeonseongjae98/cs-study/blob/main/Contents/Network/%EC%9B%B9%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%9D%98%20%EC%BA%90%EC%8B%9C%20%232.%20%EC%A0%9C%EB%8C%80%EB%A1%9C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20%EC%BF%A0%ED%82%A4.md)                                                                            | 하재률 |
 | 23/11/09 | [로그인방식: 쿠키와 세션 그리고 토큰방식(JWT)](./Contents/Network/웹브라우저의%20캐시%20%233.%20로컬스토리지,%20세션스토리지,%20쿠키의%20차이.md)                                                 | 김도형 |
 | 23/11/10 | [DEEP DIVE : 대규모 트래픽으로 인한 서버 과부화 해결방법](./Contents/Network/로그인방식%20쿠키와%20세션%20그리고%20토큰방식(JWT).md)                                                                          | 문준형 |
 | 23/11/14 | [HTTP의 상태코드와 메서드(GET, POST, PUT, PATCH, DELETE), REST API](./Contents/Network/HTTP%20상태코드와%20메서드(GET,%20POST,%20PATCH,%20DELETE).md)                                       | 마성진 |
