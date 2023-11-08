@@ -152,6 +152,18 @@ API를 서버에 요청할때 Authorization header에 Access Token을 담아서 
 
 <br>
 
+### 토큰 인증 신뢰성을 가지는 이유
+
+유저 JWT : A(Header) + B(Payload) + C(Signature) 일 때
+
+1. 다른 유저가 B를 임의로 수정 → 유저 JWT : A + B’ + C
+2. 수정한 토큰을 서버에 요청을 보내면 서버는 유효성 검사 시행
+    - 유저 JWT : A + B’ + C
+    - 서버에서 검증 후 생성한 JWT : A + B’ + C’ ⇒ signature 불일치
+3. 대조 결과가 일치하지 않아 유저의 정보가 임의로 조작되었음을 알 수 있다.
+
+<br>
+
 ### JWT 장점
 
 ---
