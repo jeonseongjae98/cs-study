@@ -116,7 +116,7 @@ Header 에는 JWT 에서 사용할 타입과 해시 알고리즘의 종류가 �
 마지막으로 Signature 에는 Header, Payload 를 Base64 URL-safe Encode 를 한 이후 Header 에 명시된 해시함수를 적용하고, 개인키(Private Key)로 서명한 전자서명이 담겨있다.
 
 
-**eader**
+**Header**
 
 - alg : 서명 암호화 알고리즘 (ex:HMAC SHA256, RSA )
 - typ : 토큰 유형
