@@ -39,7 +39,7 @@ Scale Up 방식은 말그대로 고성능 CPU, 메모리 확장, SSD 등 서버�
 그렇기때문에 대규모 트래픽 처리를 위한 scale-up을 고려하는 경우 기억장치의 처리 속도 업그레이드를 고려해야 한다.
 
 ### (horizontal) scale out
-Scale out 방식은 여러대의 서버를 구축하여 서버 한대가 처리하는 용량을 줄임으로서 전체적인성능을 중가시키는 방법이다.  
+Scale out 방식은 여러대의 서버를 구축하여 서버 한대가 처리하는 용량을 줄임으로서 전체적인성능을 증가시키는 방법이다.  
 한대가 부담해야했던 서버장애 리스크를 줄일수있고 가성비적인측면에서도 비교우위에있어 scale up보다 효율적인 리소스 부족 해결방식이다.  
 모든요청이 동일한 처리 시간을 요구하지는 않기 때문에 어떤 요청은 보다 많은 처리 시간이 필요하고, 어떤 요청은 그렇지 않을 것이다.  
 이때, 특정 서버에 장시간의 처리가 필요한 요청이 쏠리면 해당 서버만 터지게 될 것이고, 운 없게도 해당 서버로 요청을 보내게 된 사용자들은 불편하고 불쾌한 경험을 하게 될 것이다.  
@@ -215,10 +215,15 @@ MSA(MicroService Architecture) : 하나의 큰 어플리케이션을 여러개�
 MSA 구조를 활용하면 서버를 분산시켜 서비스를 안정적으로 구동하고 유지 보수를 용이하게 할 수 있다는 장점이 있다. 하지만 MSA 프로젝트에서는 프론트엔드와 통신의 효율성을 고려한 설계가 필요한데 그 중 대표적으로 API 를 통합적으로 관리해 줄 수 있는 BFF (Backend For Frontend)가 있다. 프론트엔드에서는 한번의 클릭만으로 MSA의 여러 MS 에 접근해야 하는 경우가 발생한다. 이 때마다 각 MS 에 호출을 발생시켜야 하며 호출 마다 인증 절차를 거친 후 Response를 받아와야 하는 비효율이 발생하게 된다. BFF 를 활용한다면 프론트엔드는 각 서비스에 직접 통신을 할 필요 없이 BFF에 통신을 위임하게 된다. 프론트엔드와 BFF 가 통신을 하고 BFF 는 프론트엔드로부터 받은 Request 를 분리해 각 서비스에 Request 를 보낸다. BFF 는 각 서비스로부터 받은 Response를 조합해 프론트엔드로 Response 하게 되면 통신은 완료된다. BFF의 효율성을 극대화 하기 위해서는 위에서 설명한 WebFlux 와 같은 Asynchronous Non-blocking을 지원하는 프레임워크를 사용하는 것이 좋다. MSA 프로젝트를 설계한다면 프론트엔드가 각 MS 와 직접 통신을 하면서 발생하는 중복 인증절차를 줄이고 API 호출을 위임해 비동기 방식으로 분산된 데이터를 수집할 수 있는 BFF 의 활용을 고려해 볼만 하다.  
 ![image](https://github.com/NoRuTnT/practice/assets/114069644/901112a8-2360-49c5-b6ab-184372b6fa1d)    
 
-### 4. Spring Framework Reactive Stack
+### 4. Spring Framework Reactive Stack  
+**Blocking**  
+Blocking은 자신의 작업을 진행하다가 다른 주체의 작업이 시작되면 다른 작업이 끝날 때까지 기다렸다가 자신의 작업을 시작하는 것을 의미한다.  
+**Non-Blocking**  
+Non-Blocking은 다른 주체의 작업에 관련없이 자신의 작업을 하는 것을 의미한다.  
 ![image](https://github.com/NoRuTnT/practice/assets/114069644/5354d524-4f2d-43a2-b8ca-96de20d4fa0c)  
 Asynchronous Non-blocking 1/0 모델의 대표적인 예는 Spring Framework Reactive Stack 이다. Reactive Stack 에서 Non-blocking I/O 를 수행하기 위해 WebFlux 프레임 워크를 사용한다. WebFlux구조는 사용자들의 Request를 Event Loop를 통해 처리하며 하나의 Thread로 하나의 작업을 처리하던 기 존의 Spring MVC 방식과 다르게 하나의 Thread 가 여러 작업을 처리 가능하다. WebFlux 의 성능을 최대로 활 용하기 위해서 작업을 처리하는 사이클 전반적 이벤트 처리는 Non-blocking 기반으로 구축되어야 한다. 예를 들어 WebFlux를 활용해 Non-blocking 방식으로 Request를 보내더라도 접근한 데이터베이스에서 Non-blo cking을 지원하지 않는다면 데이터베이스 접근 인터페이스에서 Blocking 이 발생하게 되므로 Reactive stack을 활용할 시 Mongo, Cassandra, Redis, Couchbase 등 Non-blocking을 지원하는 DBMS를 채택해야 한다.  
 #### Blocking I/O와 Non-blocking I/O 의 코드 비교.
+
 **Blocking I/O**  
 
 ```
