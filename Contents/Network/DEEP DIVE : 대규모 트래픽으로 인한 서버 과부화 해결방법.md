@@ -257,3 +257,6 @@ public void nonBlocking() throws InterruptedException {
 
 // LOOP_COUNT 를 증가시키더라도 결과 반환까지 시간이 크게 증가하지 않는다.
 ```
+
+## 대규모 트래픽처리 면접에서 물어보면?
+(scale-up, scale-out, 로드밸런싱, 캐싱을통한 DB부하개선)+ DB쿼리문개선, API코드개선 등 설명하면될듯?
