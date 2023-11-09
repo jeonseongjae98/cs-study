@@ -119,25 +119,28 @@ Inmemory DB의 장점은 메모리로 접근하기 때문에 디스크 접근보
 ## 대용량트래픽 처리방법  
 대용량 트래픽을 처리하는 방법은 어플리케이션의 구조와 설계방식, 시스템환경에따라 고정적이지 않고 다양한 방식을 적용할수있다.
 
-### scale out 적용/ In-memory DB 사용 세션일관성 유지
+### 1. scale out 적용/ In-memory DB 사용 세션일관성 유지
 디스크가아닌 외부메모리에 데이터를 저장하는 데이터베이스를 In-memory DB라고한다. 디스크가아닌 메모리에 저장하기때문에 세션정보와 같은 임시데이터를 저장하는것이 바람직하다.(비용이 비쌈)  
 서버들이 동일한 인메모리 데이터베이스를 바라보기때문에 서버추가가 용이하며 속도도빠른 Redis, Memchached와 같은 인메모리 데이터베이스를 사용해 일관성을 유지하는것을 고려해 볼만하다.  
 <details>
    <summary>Redis vs Memcached</summary>
-   <p> Redis는 NoSql이면서 많은 사람들이 사용하는 대표적인 인메모리DB이기 때문에 NoSQL 과 In-Memory-DB를 동의어로 생각한다.</p>
-  <p> Redis의 장점</p>
-  <p> 1. CollectionAPI를 제공하기 때문에 리스트, 배열과 같은 데이터를 처리하는데 유용하다.</p>
-  <p> 2. 여러 프로세스에서 동시에 같은 key에 대한 갱신을 요청할 경우, Atomic 처리로 데이터 부정합 방지 Atomic처리 함수를 제공한다.</p>
-  <p> 3. 메모리를 활용하면서 영속적인 데이터 보존</p>
-  <p> 4. Redis Server는 1개의 싱글 쓰레드로 수행되며, 따라서 서버 하나에 여러개의 서버를 띄우는 것이 가능하다. Master - Slave 형식으로 구성이 가능함</p>
-  <p> Memcached</p>
-  <p> Memcached는 기본적으로 Redis와 매우 흡사하다. 그렇다면 어떤 부분이 다를까? 기본적으로 Memcached는 캐쉬솔루션이며 여기서 저장소가 추가된게 Redis이다. 캐시는 빠른 속도를 위해서 어떤 결과를 저장해 두는 것을 의미하며 또한 데이터가 사라지면 다시 만들 수 있다는 전제를 내포하고 있다.
+	<div>
+		
+    Redis는 NoSql이면서 많은 사람들이 사용하는 대표적인 인메모리DB이기 때문에 NoSQL 과 In-Memory-DB를 동의어로 생각한다.
+   Redis의 장점
+  1. CollectionAPI를 제공하기 때문에 리스트, 배열과 같은 데이터를 처리하는데 유용하다.
+  2. 여러 프로세스에서 동시에 같은 key에 대한 갱신을 요청할 경우, Atomic 처리로 데이터 부정합 방지 Atomic처리 함수를 제공한다.
+   3. 메모리를 활용하면서 영속적인 데이터 보존
+   4. Redis Server는 1개의 싱글 쓰레드로 수행되며, 따라서 서버 하나에 여러개의 서버를 띄우는 것이 가능하다. Master - Slave 형식으로 구성이 가능함  
+  Memcached  
+   Memcached는 기본적으로 Redis와 매우 흡사하다. 그렇다면 어떤 부분이 다를까? 기본적으로 Memcached는 캐쉬솔루션이며 여기서 저장소가 추가된게 Redis이다. 캐시는 빠른 속도를 위해서 어떤 결과를 저장해 두는 것을 의미하며 또한 데이터가 사라지면 다시 만들 수 있다는 전제를 내포하고 있다.
 캐시 기능만을 고려한다면 디스크에서 불러오기만 하면 된다. (= Load 기능만 수행되면 된다.) 
-  그런데 저장소라는 개념이 추가되면 데이터가 유지되어야 한다는 특성을 가지게 된다.(= Save기능도 필요하다.)</p>
-  <img src:"https://github.com/NoRuTnT/practice/assets/114069644/3b79ef01-d9b6-4fc8-9d95-52ed6db08bf3">  
+  그런데 저장소라는 개념이 추가되면 데이터가 유지되어야 한다는 특성을 가지게 된다.(= Save기능도 필요하다.)
+  ![image](https://github.com/NoRuTnT/practice/assets/114069644/3b79ef01-d9b6-4fc8-9d95-52ed6db08bf3)
+</div>
 </details>
 
-### 캐싱을 통한 DB부하분담
+### 2. 캐싱을 통한 DB부하분담
 서비스에서 공통된 데이터를 지속적으로 사용자에게 제공하는 경우가 있다. 사용자에게 필요한 공통된 정보를 제공하기 위해 매번 DB 에 접근해 데이터를 조회하는 것은 데이터 베이스 서버의 리소스를 낭비하는 것이며 서버 전체 성능에도 악영향을 줄 수 있다. 이때 자주 사용 되는 데이터를 임시로 캐시 서버에 저장해 제공하는 방법을 고려해야 한다. 캐시는 로컬캐시(Local Cache) 와 글로벌캐시(Globa Cache)로 구분되는데 Spring MSA 방식에서는 글로벌 캐시를 통해 다중 서버에서 동일한 데이터를 전달 받을 수 있도록 Redis를 적용할 수 있다.   
 ![image](https://github.com/NoRuTnT/practice/assets/114069644/b0b87b1e-a748-4875-9601-d8ce5380f14f)  
 Spring 에서 Redis 인메모리 캐싱을 활용하기 위한 간단한 예제 코드  
@@ -205,3 +208,52 @@ public class addressService{
 }
 ```
 
+### 3. MSA환경에서 BFF패턴
+MSA(MicroService Architecture) : 하나의 큰 어플리케이션을 여러개의 작은 어플리케이션으로 쪼개어 변경과 조합이 가능하도록 만든 아키텍쳐  
+![image](https://github.com/NoRuTnT/practice/assets/114069644/959306f6-5061-4293-ab98-d1ef7c0fdbbc)    
+
+MSA 구조를 활용하면 서버를 분산시켜 서비스를 안정적으로 구동하고 유지 보수를 용이하게 할 수 있다는 장점이 있다. 하지만 MSA 프로젝트에서는 프론트엔드와 통신의 효율성을 고려한 설계가 필요한데 그 중 대표적으로 API 를 통합적으로 관리해 줄 수 있는 BFF (Backend For Frontend)가 있다. 프론트엔드에서는 한번의 클릭만으로 MSA의 여러 MS 에 접근해야 하는 경우가 발생한다. 이 때마다 각 MS 에 호출을 발생시켜야 하며 호출 마다 인증 절차를 거친 후 Response를 받아와야 하는 비효율이 발생하게 된다. BFF 를 활용한다면 프론트엔드는 각 서비스에 직접 통신을 할 필요 없이 BFF에 통신을 위임하게 된다. 프론트엔드와 BFF 가 통신을 하고 BFF 는 프론트엔드로부터 받은 Request 를 분리해 각 서비스에 Request 를 보낸다. BFF 는 각 서비스로부터 받은 Response를 조합해 프론트엔드로 Response 하게 되면 통신은 완료된다. BFF의 효율성을 극대화 하기 위해서는 위에서 설명한 WebFlux 와 같은 Asynchronous Non-blocking을 지원하는 프레임워크를 사용하는 것이 좋다. MSA 프로젝트를 설계한다면 프론트엔드가 각 MS 와 직접 통신을 하면서 발생하는 중복 인증절차를 줄이고 API 호출을 위임해 비동기 방식으로 분산된 데이터를 수집할 수 있는 BFF 의 활용을 고려해 볼만 하다.  
+![image](https://github.com/NoRuTnT/practice/assets/114069644/901112a8-2360-49c5-b6ab-184372b6fa1d)    
+
+### 4. Spring Framework Reactive Stack
+![image](https://github.com/NoRuTnT/practice/assets/114069644/5354d524-4f2d-43a2-b8ca-96de20d4fa0c)  
+Asynchronous Non-blocking 1/0 모델의 대표적인 예는 Spring Framework Reactive Stack 이다. Reactive Stack 에서 Non-blocking I/O 를 수행하기 위해 WebFlux 프레임 워크를 사용한다. WebFlux구조는 사용자들의 Request를 Event Loop를 통해 처리하며 하나의 Thread로 하나의 작업을 처리하던 기 존의 Spring MVC 방식과 다르게 하나의 Thread 가 여러 작업을 처리 가능하다. WebFlux 의 성능을 최대로 활 용하기 위해서 작업을 처리하는 사이클 전반적 이벤트 처리는 Non-blocking 기반으로 구축되어야 한다. 예를 들어 WebFlux를 활용해 Non-blocking 방식으로 Request를 보내더라도 접근한 데이터베이스에서 Non-blo cking을 지원하지 않는다면 데이터베이스 접근 인터페이스에서 Blocking 이 발생하게 되므로 Reactive stack을 활용할 시 Mongo, Cassandra, Redis, Couchbase 등 Non-blocking을 지원하는 DBMS를 채택해야 한다.  
+#### Blocking I/O와 Non-blocking I/O 의 코드 비교.
+**Blocking I/O**  
+
+```
+@Test
+public void blocking() {
+    final RestTemplate restTemplate = new RestTemplate();
+
+    for (int i = 0; i < 3; i++) {
+				// spring 내장 클래스인 restTemplate 을 활용한 api 
+        final ResponseEntity<String> response =
+                restTemplate.exchange(THREE_SECOND_URL, HttpMethod.GET, HttpEntity.EMPTY, String.class);
+        assertThat(response.getBody()).contains("success");
+    }
+}
+// Blocking I/O 방식으로 api 호출 시 마다 blocking 발생
+```
+
+**Non-blocking I/O**  
+```
+@Test
+public void nonBlocking() throws InterruptedException {
+    for (int i = 0; i < LOOP_COUNT; i++) {
+				// nonBlocking 방식인 webFlux 의 webClient 를 활용한 api	
+        this.webClient
+                .get()
+                .uri(THREE_SECOND_URL)
+                .retrieve()
+                .bodyToMono(String.class)
+                .subscribe(it -> {
+                    count.countDown();
+                    System.out.println(it);
+                });
+    }
+    count.await(10, TimeUnit.SECONDS);
+}
+
+// LOOP_COUNT 를 증가시키더라도 결과 반환까지 시간이 크게 증가하지 않는다.
+```
